@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Playfair+Display|Thasadith');
+.slogan{
+        /* align-items: center; */
+        display: flex;
+        align-items: center;
+        /* display: flex; */
+        align-content: baseline;
+        flex-direction: column;
+        margin-top: -3em;
+        align-self: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+.sub_slogan{
+    margin-top: -25px;
+  
+    font-size: 25px;
+    color: white;
+
+    font-family: 'Thasadith', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Bad Script', cursive; 
+}

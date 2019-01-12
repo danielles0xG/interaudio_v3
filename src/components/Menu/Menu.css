@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Rokkitt|ZCOOL+QingKe+HuangYou');
+
+.menu_desktop{
+    font-size: 15px;
+    background-color: transparent;
+    /* border: solid; */
+    margin-bottom: 0px;
+    /* display: inline-flex; */
+    padding: .5rem;
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: 60%;
+    position: fixed;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    cursor: pointer; 
+    text-decoration: none;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Rokkitt', serif;
+    border-right: solid .5px white;
+    padding-right: 10px;
+    border-radius: 50px;
+  }
+a:hover{    
+    
+    border-left: solid .5px white;
+    padding-left: 10px;
+    border-radius: 50px;
+}
