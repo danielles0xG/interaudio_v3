@@ -7,7 +7,7 @@ import Menu from '../../components/Menu/Menu'
 import SloganImg from '../../images/slogan/slogan-transparent.png'
 import Logo from '../../images/logo/logo-transparent.png'
 
-import './Homeresets.css'
+import './HomeResets.css'
 import './HomeLayout.css'
 
  
