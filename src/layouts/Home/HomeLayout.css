@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script|Playfair+Display|Thasadith');
-.slogan{
+.slogan_container{
         /* align-items: center; */
         display: flex;
         align-items: center;
@@ -9,18 +9,41 @@
         margin-top: -3em;
         align-self: center;
 }
+.slogan_img{
+    width:30em;
+}
 .wrapper{
     display: flex;
     flex-direction: column;
-
+}
+.top_bar{
+    height: 11em;
+    display: flex;
 }
 .sub_slogan{
     margin-top: -25px;
-  
     font-size: 25px;
     color: white;
-
     font-family: 'Thasadith', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Bad Script', cursive; 
+    font-family: 'Playfair Display', serif;
+    font-family: 'Bad Script', cursive; 
 }
+.speaker_logo{
+    width: 5em;
+    height:10em;
+}
+
+/* Mobile */
+@media screen and (max-width: 750px) {
+ .speaker_logo{
+     display: none;
+    }
+ .top_bar{ 
+     align-content: center;
+     align-items: center;
+     flex-direction: column;
+    }
+    .slogan_img{
+        width:20em;
+    }
+  }

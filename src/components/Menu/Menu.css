@@ -33,3 +33,15 @@ a:hover{
     padding-left: 10px;
     border-radius: 50px;
 }
+
+/* Mobile */
+@media screen and (max-width: 750px) {
+    .menu_desktop{
+        margin-left: 0px;
+       }
+    a{
+        border-right: none;
+        padding-right: 5px;
+        
+    }
+     }

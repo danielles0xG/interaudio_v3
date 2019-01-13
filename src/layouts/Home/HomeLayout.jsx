@@ -1,7 +1,7 @@
 import React from 'react'
 import {BackgroundSection} from '../../components/Home_Img/BackgroundSection'
 import SEO from '../../components/seo'
-
+import { SocialIcon } from "react-social-icons";
 
 import Menu from '../../components/Menu/Menu'
 import SloganImg from '../../images/slogan/slogan-transparent.png'
@@ -20,17 +20,16 @@ class  HomeLayout extends React.Component{
     return(
       <div className='wrapper' >
           <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />  
-            <div style={{ height: '11em',display: 'flex' }}> 
-                  <img  style={{width:'5em',height: '10em'}} 
-                    src={logo} alt='InterAudio'/>     
+            <div className='top_bar'> 
+                  <img  className='speaker_logo' src={logo} alt='InterAudio'/>     
                   <Menu/>               
             </div>
 
 
 
           <div>
-              <div  className='slogan'> 
-                 <img style={{width:'30em'}} src={slogan_img} alt='Sound System Rental'/>
+              <div  className='slogan_container'> 
+                 <img className='slogan_img' src={slogan_img} alt='Sound System Rental'/>
                  <h4 className='sub_slogan'>Sonorización Profesional</h4>
               </div>       
           </div>                  
