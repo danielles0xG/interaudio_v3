@@ -14,9 +14,12 @@
     "gatsby-plugin-sharp": "^2.0.14",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
+    "globalize": "^1.4.0",
+    "moment": "^2.23.0",
     "package.json": "^2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
+    "react-big-calendar": "^0.20.2",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "react-social-icons": "^4.1.0"
