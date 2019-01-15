@@ -4,7 +4,8 @@
     height: 30em;
     background-repeat: no-repeat;
     position: absolute !important;
-    margin-top: 2.5em;
+   
+    background-attachment: fixed;
 } 
 .slogan{
     margin:'0px auto'
