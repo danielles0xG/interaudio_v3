@@ -16,6 +16,7 @@
     "gatsby-transformer-sharp": "^2.1.8",
     "globalize": "^1.4.0",
     "moment": "^2.23.0",
+    "netlify-cli": "^2.8.0",
     "package.json": "^2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",

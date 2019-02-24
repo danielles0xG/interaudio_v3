@@ -44,12 +44,7 @@ class  HomeLayout extends React.Component{
                 <BackgroundSection style={{position:'absolute'}}/>
             </div>
 
-            <div className='service_section'>                      
-                          
-            </div> 
-            <div className='second_section'>                      
-                        
-            </div> 
+
               <div className='contact_section'> 
                   
                    <div style={{width:'50%', height:'100%',}}>
@@ -61,7 +56,7 @@ class  HomeLayout extends React.Component{
                                 Message:                        
                                 <textarea name='contact_form' form='contact_form'></textarea>
                                 <br/>
-                                <button type='submit'>Send</button>
+                                <button >Send</button>
                           </form>
                       </div>
 
