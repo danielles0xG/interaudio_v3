@@ -47,7 +47,7 @@ class  HomeLayout extends React.Component{
 
               <div className='contact_section'> 
                   
-                   <div style={{width:'50%', height:'100%',}}>
+                   <div style={{width:'50%', height:'100%',margin:'auto'}}>
                           <form className='contact_form' action={()=> this._submitContactForm()} form='contact_form'>
                                 Name:
                                 <input  type="email" name="contact_name"/>
@@ -60,13 +60,11 @@ class  HomeLayout extends React.Component{
                           </form>
                       </div>
 
-                      <div style={{width:'50%', height:'100%',marginLeft:'10%'}}>
-                        <GoogleCalendar/>
-                    </div> 
+                    
                                          
             </div>   
             <div className='footer_section'>                      
-                   <h4>CopyRight Interaudio 2019€</h4>
+                   <p>CopyRight © 2019 Interaudio Sound System Rental™</p>
             </div>      
             
       </div>  
