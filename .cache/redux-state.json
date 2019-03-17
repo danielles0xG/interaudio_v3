@@ -820,6 +820,10 @@
             "version": "^0.20.2"
           },
           {
+            "name": "react-bootstrap",
+            "version": "^1.0.0-beta.5"
+          },
+          {
             "name": "react-dom",
             "version": "^16.6.3"
           },
@@ -875,10 +879,7 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -961,12 +962,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-26T03:19:40.017Z",
+      "buildTime": "2019-03-17T14:58:49.189Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "00764156dabf11f11ee732e96be95bb9",
+        "contentDigest": "e5caa8805c4654770622f46c162202f1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -976,7 +977,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "20d9545b22b87ac7fb845b5d0d410e41",
+        "contentDigest": "0fe9aeb933b72495ffa770a7d295348c",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -985,11 +986,11 @@
       "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 352,
-      "prettySize": "352 B",
-      "modifiedTime": "2019-01-14T23:42:35.307Z",
-      "accessTime": "2019-02-26T03:19:46.995Z",
-      "changeTime": "2019-01-14T23:42:35.307Z",
+      "size": 384,
+      "prettySize": "384 B",
+      "modifiedTime": "2019-03-02T03:01:23.169Z",
+      "accessTime": "2019-03-17T14:58:55.872Z",
+      "changeTime": "2019-03-02T03:01:23.169Z",
       "birthTime": "2019-01-12T16:17:28.581Z",
       "root": "/",
       "dir": "/Users/null/Documents/Web/interaudio_v3/src",
@@ -999,20 +1000,20 @@
       "relativeDirectory": "..",
       "dev": 16777222,
       "mode": 16877,
-      "nlink": 11,
+      "nlink": 12,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 4305979005,
       "blocks": 0,
-      "atimeMs": 1551151186994.8643,
-      "mtimeMs": 1547509355306.7876,
-      "ctimeMs": 1547509355306.7876,
+      "atimeMs": 1552834735871.6946,
+      "mtimeMs": 1551495683168.694,
+      "ctimeMs": 1551495683168.694,
       "birthtimeMs": 1547309848581.3235,
-      "atime": "2019-02-26T03:19:46.995Z",
-      "mtime": "2019-01-14T23:42:35.307Z",
-      "ctime": "2019-01-14T23:42:35.307Z",
+      "atime": "2019-03-17T14:58:55.872Z",
+      "mtime": "2019-03-02T03:01:23.169Z",
+      "ctime": "2019-03-02T03:01:23.169Z",
       "birthtime": "2019-01-12T16:17:28.581Z"
     },
     "b955805a-9388-5d8e-87f5-2c88cfcb0337": {
@@ -1020,7 +1021,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4b814e20d59365470312b844bbeda90e",
+        "contentDigest": "1622cadc681a7c6869b36b278635a478",
         "type": "Directory",
         "description": "Directory \"src/images/icons\"",
         "owner": "gatsby-source-filesystem"
@@ -1032,7 +1033,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-14T23:44:04.859Z",
-      "accessTime": "2019-02-26T03:19:47.009Z",
+      "accessTime": "2019-03-17T14:58:55.879Z",
       "changeTime": "2019-01-14T23:44:04.859Z",
       "birthTime": "2019-01-14T23:42:35.307Z",
       "root": "/",
@@ -1050,11 +1051,11 @@
       "blksize": 4096,
       "ino": 4306199467,
       "blocks": 0,
-      "atimeMs": 1551151187008.9656,
+      "atimeMs": 1552834735879.1697,
       "mtimeMs": 1547509444858.858,
       "ctimeMs": 1547509444858.858,
       "birthtimeMs": 1547509355306.7576,
-      "atime": "2019-02-26T03:19:47.009Z",
+      "atime": "2019-03-17T14:58:55.879Z",
       "mtime": "2019-01-14T23:44:04.859Z",
       "ctime": "2019-01-14T23:44:04.859Z",
       "birthtime": "2019-01-14T23:42:35.307Z"
@@ -1064,7 +1065,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e6a08f31100d42dd478ed39de6ec22b2",
+        "contentDigest": "dc72f28c9207183fd9f6ce601df6df8a",
         "type": "Directory",
         "description": "Directory \"src/images/logo\"",
         "owner": "gatsby-source-filesystem"
@@ -1076,7 +1077,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-13T23:21:00.084Z",
-      "accessTime": "2019-02-26T03:19:47.014Z",
+      "accessTime": "2019-03-17T14:58:55.878Z",
       "changeTime": "2019-01-13T23:21:00.084Z",
       "birthTime": "2019-01-12T16:26:23.876Z",
       "root": "/",
@@ -1094,11 +1095,11 @@
       "blksize": 4096,
       "ino": 4306022711,
       "blocks": 0,
-      "atimeMs": 1551151187013.659,
+      "atimeMs": 1552834735877.9482,
       "mtimeMs": 1547421660083.7324,
       "ctimeMs": 1547421660083.7324,
       "birthtimeMs": 1547310383876.0376,
-      "atime": "2019-02-26T03:19:47.014Z",
+      "atime": "2019-03-17T14:58:55.878Z",
       "mtime": "2019-01-13T23:21:00.084Z",
       "ctime": "2019-01-13T23:21:00.084Z",
       "birthtime": "2019-01-12T16:26:23.876Z"
@@ -1108,7 +1109,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "608ac66374ef7fc0d516aecb9283ed45",
+        "contentDigest": "f075172de930e4a77811324b1a78d93e",
         "type": "Directory",
         "description": "Directory \"src/images/slogan\"",
         "owner": "gatsby-source-filesystem"
@@ -1120,7 +1121,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-13T23:08:47.494Z",
-      "accessTime": "2019-02-26T03:19:47.014Z",
+      "accessTime": "2019-03-17T14:58:55.878Z",
       "changeTime": "2019-01-13T23:08:47.494Z",
       "birthTime": "2019-01-12T16:26:33.582Z",
       "root": "/",
@@ -1138,11 +1139,11 @@
       "blksize": 4096,
       "ino": 4306022714,
       "blocks": 0,
-      "atimeMs": 1551151187013.711,
+      "atimeMs": 1552834735878.0261,
       "mtimeMs": 1547420927493.691,
       "ctimeMs": 1547420927493.691,
       "birthtimeMs": 1547310393582.2056,
-      "atime": "2019-02-26T03:19:47.014Z",
+      "atime": "2019-03-17T14:58:55.878Z",
       "mtime": "2019-01-13T23:08:47.494Z",
       "ctime": "2019-01-13T23:08:47.494Z",
       "birthtime": "2019-01-12T16:26:33.582Z"
@@ -1193,100 +1194,6 @@
       "mtime": "2019-01-13T03:45:18.055Z",
       "ctime": "2019-01-13T03:45:42.456Z",
       "birthtime": "2019-01-13T03:45:18.019Z"
-    },
-    "e97c568e-0d53-5a7d-b08b-368c75219872": {
-      "id": "e97c568e-0d53-5a7d-b08b-368c75219872",
-      "children": [
-        "2b2db314-72e1-5751-af85-aac140c4077f"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "536a92a51100e21f887f9fa5ffca2d2b",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/icons/sp.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/icons/sp.png",
-      "relativePath": "icons/sp.png",
-      "extension": "png",
-      "size": 848,
-      "prettySize": "848 B",
-      "modifiedTime": "2019-01-14T23:44:04.860Z",
-      "accessTime": "2019-01-15T03:05:14.914Z",
-      "changeTime": "2019-01-14T23:44:04.861Z",
-      "birthTime": "2019-01-14T23:43:25.251Z",
-      "root": "/",
-      "dir": "/Users/null/Documents/Web/interaudio_v3/src/images/icons",
-      "base": "sp.png",
-      "ext": ".png",
-      "name": "sp",
-      "relativeDirectory": "icons",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4306199582,
-      "blocks": 8,
-      "atimeMs": 1547521514914.3335,
-      "mtimeMs": 1547509444860,
-      "ctimeMs": 1547509444861.0237,
-      "birthtimeMs": 1547509405250.923,
-      "atime": "2019-01-15T03:05:14.914Z",
-      "mtime": "2019-01-14T23:44:04.860Z",
-      "ctime": "2019-01-14T23:44:04.861Z",
-      "birthtime": "2019-01-14T23:43:25.251Z"
-    },
-    "50e7639e-ae88-5484-95dd-3b11e6de9f47": {
-      "id": "50e7639e-ae88-5484-95dd-3b11e6de9f47",
-      "children": [
-        "e30f89a2-39f1-5ebb-afc7-f5a8b0e0bed8"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "065ada8a2d9aac3dbc74adadd79506f1",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/icons/en.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/icons/en.png",
-      "relativePath": "icons/en.png",
-      "extension": "png",
-      "size": 1462,
-      "prettySize": "1.46 kB",
-      "modifiedTime": "2019-01-14T23:43:51.475Z",
-      "accessTime": "2019-01-15T03:05:14.914Z",
-      "changeTime": "2019-01-14T23:43:51.477Z",
-      "birthTime": "2019-01-14T23:42:13.112Z",
-      "root": "/",
-      "dir": "/Users/null/Documents/Web/interaudio_v3/src/images/icons",
-      "base": "en.png",
-      "ext": ".png",
-      "name": "en",
-      "relativeDirectory": "icons",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4306199374,
-      "blocks": 8,
-      "atimeMs": 1547521514914.2937,
-      "mtimeMs": 1547509431475,
-      "ctimeMs": 1547509431476.823,
-      "birthtimeMs": 1547509333111.8462,
-      "atime": "2019-01-15T03:05:14.914Z",
-      "mtime": "2019-01-14T23:43:51.475Z",
-      "ctime": "2019-01-14T23:43:51.477Z",
-      "birthtime": "2019-01-14T23:42:13.112Z"
     },
     "ac228e84-597e-518c-b955-90e7407732c8": {
       "id": "ac228e84-597e-518c-b955-90e7407732c8",
@@ -1382,53 +1289,6 @@
       "ctime": "2019-01-13T06:36:56.407Z",
       "birthtime": "2019-01-13T06:36:36.178Z"
     },
-    "5f69456f-cd4a-5aab-91ab-1a2afc224051": {
-      "id": "5f69456f-cd4a-5aab-91ab-1a2afc224051",
-      "children": [
-        "238e3aa2-2201-5ea8-a0b3-e916702b74d5"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d6be5d625cfac9c2c4c9f7c55e62e55d",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/logo/logo-transparent.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/logo/logo-transparent.png",
-      "relativePath": "logo/logo-transparent.png",
-      "extension": "png",
-      "size": 25640,
-      "prettySize": "25.6 kB",
-      "modifiedTime": "2019-01-12T22:00:02.568Z",
-      "accessTime": "2019-01-13T06:54:20.588Z",
-      "changeTime": "2019-01-12T22:00:02.569Z",
-      "birthTime": "2019-01-12T21:56:42.357Z",
-      "root": "/",
-      "dir": "/Users/null/Documents/Web/interaudio_v3/src/images/logo",
-      "base": "logo-transparent.png",
-      "ext": ".png",
-      "name": "logo-transparent",
-      "relativeDirectory": "logo",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4306041021,
-      "blocks": 56,
-      "atimeMs": 1547362460587.8677,
-      "mtimeMs": 1547330402568,
-      "ctimeMs": 1547330402569.0745,
-      "birthtimeMs": 1547330202356.529,
-      "atime": "2019-01-13T06:54:20.588Z",
-      "mtime": "2019-01-12T22:00:02.568Z",
-      "ctime": "2019-01-12T22:00:02.569Z",
-      "birthtime": "2019-01-12T21:56:42.357Z"
-    },
     "d754313a-4c5f-5bc0-8ea8-b90981065c1d": {
       "id": "d754313a-4c5f-5bc0-8ea8-b90981065c1d",
       "children": [
@@ -1476,34 +1336,34 @@
       "ctime": "2019-01-13T23:08:47.497Z",
       "birthtime": "2019-01-13T23:08:27.438Z"
     },
-    "89b2f351-402e-548e-9756-4d954ea82e65": {
-      "id": "89b2f351-402e-548e-9756-4d954ea82e65",
+    "5f69456f-cd4a-5aab-91ab-1a2afc224051": {
+      "id": "5f69456f-cd4a-5aab-91ab-1a2afc224051",
       "children": [
-        "e9f13c0f-0ae5-50e2-8cb9-0a87307bf021"
+        "238e3aa2-2201-5ea8-a0b3-e916702b74d5"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "94e2262afcfbdad4775a6953d32d62db",
+        "contentDigest": "d6be5d625cfac9c2c4c9f7c55e62e55d",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/images/logo/logo_bocina3.png\"",
+        "description": "File \"src/images/logo/logo-transparent.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/logo/logo_bocina3.png",
-      "relativePath": "logo/logo_bocina3.png",
+      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/logo/logo-transparent.png",
+      "relativePath": "logo/logo-transparent.png",
       "extension": "png",
-      "size": 23672,
-      "prettySize": "23.7 kB",
-      "modifiedTime": "2019-01-13T23:21:00.086Z",
-      "accessTime": "2019-01-14T03:56:17.839Z",
-      "changeTime": "2019-01-13T23:21:00.089Z",
-      "birthTime": "2019-01-13T23:21:00.084Z",
+      "size": 25640,
+      "prettySize": "25.6 kB",
+      "modifiedTime": "2019-01-12T22:00:02.568Z",
+      "accessTime": "2019-01-13T06:54:20.588Z",
+      "changeTime": "2019-01-12T22:00:02.569Z",
+      "birthTime": "2019-01-12T21:56:42.357Z",
       "root": "/",
       "dir": "/Users/null/Documents/Web/interaudio_v3/src/images/logo",
-      "base": "logo_bocina3.png",
+      "base": "logo-transparent.png",
       "ext": ".png",
-      "name": "logo_bocina3",
+      "name": "logo-transparent",
       "relativeDirectory": "logo",
       "dev": 16777222,
       "mode": 33188,
@@ -1512,16 +1372,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 4306180410,
-      "blocks": 48,
-      "atimeMs": 1547438177838.9316,
-      "mtimeMs": 1547421660086.4663,
-      "ctimeMs": 1547421660088.8474,
-      "birthtimeMs": 1547421660083.701,
-      "atime": "2019-01-14T03:56:17.839Z",
-      "mtime": "2019-01-13T23:21:00.086Z",
-      "ctime": "2019-01-13T23:21:00.089Z",
-      "birthtime": "2019-01-13T23:21:00.084Z"
+      "ino": 4306041021,
+      "blocks": 56,
+      "atimeMs": 1547362460587.8677,
+      "mtimeMs": 1547330402568,
+      "ctimeMs": 1547330402569.0745,
+      "birthtimeMs": 1547330202356.529,
+      "atime": "2019-01-13T06:54:20.588Z",
+      "mtime": "2019-01-12T22:00:02.568Z",
+      "ctime": "2019-01-12T22:00:02.569Z",
+      "birthtime": "2019-01-12T21:56:42.357Z"
     },
     "3168a98e-ef6f-5c8f-b47f-5a54db067626": {
       "id": "3168a98e-ef6f-5c8f-b47f-5a54db067626",
@@ -1570,35 +1430,35 @@
       "ctime": "2019-01-12T16:48:20.479Z",
       "birthtime": "2019-01-12T16:47:57.997Z"
     },
-    "f75b603b-b31a-5336-b805-f553a6b98007": {
-      "id": "f75b603b-b31a-5336-b805-f553a6b98007",
+    "89b2f351-402e-548e-9756-4d954ea82e65": {
+      "id": "89b2f351-402e-548e-9756-4d954ea82e65",
       "children": [
-        "9d3edacc-1acb-5f1e-a04b-8daccfde6ddf"
+        "e9f13c0f-0ae5-50e2-8cb9-0a87307bf021"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "36ec2ffa31bc5fac97430121eb87bc7c",
+        "contentDigest": "94e2262afcfbdad4775a6953d32d62db",
         "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/slogan/slogan-transparent2.jpeg\"",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo/logo_bocina3.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/slogan/slogan-transparent2.jpeg",
-      "relativePath": "slogan/slogan-transparent2.jpeg",
-      "extension": "jpeg",
-      "size": 14464,
-      "prettySize": "14.5 kB",
-      "modifiedTime": "2019-01-13T06:54:20.235Z",
+      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/logo/logo_bocina3.png",
+      "relativePath": "logo/logo_bocina3.png",
+      "extension": "png",
+      "size": 23672,
+      "prettySize": "23.7 kB",
+      "modifiedTime": "2019-01-13T23:21:00.086Z",
       "accessTime": "2019-01-14T03:56:17.839Z",
-      "changeTime": "2019-01-13T06:55:04.629Z",
-      "birthTime": "2019-01-13T06:54:20.235Z",
+      "changeTime": "2019-01-13T23:21:00.089Z",
+      "birthTime": "2019-01-13T23:21:00.084Z",
       "root": "/",
-      "dir": "/Users/null/Documents/Web/interaudio_v3/src/images/slogan",
-      "base": "slogan-transparent2.jpeg",
-      "ext": ".jpeg",
-      "name": "slogan-transparent2",
-      "relativeDirectory": "slogan",
+      "dir": "/Users/null/Documents/Web/interaudio_v3/src/images/logo",
+      "base": "logo_bocina3.png",
+      "ext": ".png",
+      "name": "logo_bocina3",
+      "relativeDirectory": "logo",
       "dev": 16777222,
       "mode": 33188,
       "nlink": 1,
@@ -1606,16 +1466,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 4306159712,
-      "blocks": 32,
-      "atimeMs": 1547438177838.9675,
-      "mtimeMs": 1547362460235.094,
-      "ctimeMs": 1547362504629.387,
-      "birthtimeMs": 1547362460234.8455,
+      "ino": 4306180410,
+      "blocks": 48,
+      "atimeMs": 1547438177838.9316,
+      "mtimeMs": 1547421660086.4663,
+      "ctimeMs": 1547421660088.8474,
+      "birthtimeMs": 1547421660083.701,
       "atime": "2019-01-14T03:56:17.839Z",
-      "mtime": "2019-01-13T06:54:20.235Z",
-      "ctime": "2019-01-13T06:55:04.629Z",
-      "birthtime": "2019-01-13T06:54:20.235Z"
+      "mtime": "2019-01-13T23:21:00.086Z",
+      "ctime": "2019-01-13T23:21:00.089Z",
+      "birthtime": "2019-01-13T23:21:00.084Z"
     },
     "c570f356-0c13-549e-b7e8-4da586df8c7c": {
       "id": "c570f356-0c13-549e-b7e8-4da586df8c7c",
@@ -1664,32 +1524,153 @@
       "ctime": "2019-01-12T21:19:24.600Z",
       "birthtime": "2019-01-12T21:19:24.592Z"
     },
+    "50e7639e-ae88-5484-95dd-3b11e6de9f47": {
+      "id": "50e7639e-ae88-5484-95dd-3b11e6de9f47",
+      "children": [
+        "e30f89a2-39f1-5ebb-afc7-f5a8b0e0bed8"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "065ada8a2d9aac3dbc74adadd79506f1",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/icons/en.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/icons/en.png",
+      "relativePath": "icons/en.png",
+      "extension": "png",
+      "size": 1462,
+      "prettySize": "1.46 kB",
+      "modifiedTime": "2019-01-14T23:43:51.475Z",
+      "accessTime": "2019-01-15T03:05:14.914Z",
+      "changeTime": "2019-01-14T23:43:51.477Z",
+      "birthTime": "2019-01-14T23:42:13.112Z",
+      "root": "/",
+      "dir": "/Users/null/Documents/Web/interaudio_v3/src/images/icons",
+      "base": "en.png",
+      "ext": ".png",
+      "name": "en",
+      "relativeDirectory": "icons",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4306199374,
+      "blocks": 8,
+      "atimeMs": 1547521514914.2937,
+      "mtimeMs": 1547509431475,
+      "ctimeMs": 1547509431476.823,
+      "birthtimeMs": 1547509333111.8462,
+      "atime": "2019-01-15T03:05:14.914Z",
+      "mtime": "2019-01-14T23:43:51.475Z",
+      "ctime": "2019-01-14T23:43:51.477Z",
+      "birthtime": "2019-01-14T23:42:13.112Z"
+    },
+    "f75b603b-b31a-5336-b805-f553a6b98007": {
+      "id": "f75b603b-b31a-5336-b805-f553a6b98007",
+      "children": [
+        "9d3edacc-1acb-5f1e-a04b-8daccfde6ddf"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "36ec2ffa31bc5fac97430121eb87bc7c",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/slogan/slogan-transparent2.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/slogan/slogan-transparent2.jpeg",
+      "relativePath": "slogan/slogan-transparent2.jpeg",
+      "extension": "jpeg",
+      "size": 14464,
+      "prettySize": "14.5 kB",
+      "modifiedTime": "2019-01-13T06:54:20.235Z",
+      "accessTime": "2019-01-14T03:56:17.839Z",
+      "changeTime": "2019-01-13T06:55:04.629Z",
+      "birthTime": "2019-01-13T06:54:20.235Z",
+      "root": "/",
+      "dir": "/Users/null/Documents/Web/interaudio_v3/src/images/slogan",
+      "base": "slogan-transparent2.jpeg",
+      "ext": ".jpeg",
+      "name": "slogan-transparent2",
+      "relativeDirectory": "slogan",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4306159712,
+      "blocks": 32,
+      "atimeMs": 1547438177838.9675,
+      "mtimeMs": 1547362460235.094,
+      "ctimeMs": 1547362504629.387,
+      "birthtimeMs": 1547362460234.8455,
+      "atime": "2019-01-14T03:56:17.839Z",
+      "mtime": "2019-01-13T06:54:20.235Z",
+      "ctime": "2019-01-13T06:55:04.629Z",
+      "birthtime": "2019-01-13T06:54:20.235Z"
+    },
+    "e97c568e-0d53-5a7d-b08b-368c75219872": {
+      "id": "e97c568e-0d53-5a7d-b08b-368c75219872",
+      "children": [
+        "2b2db314-72e1-5751-af85-aac140c4077f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "536a92a51100e21f887f9fa5ffca2d2b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/icons/sp.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/icons/sp.png",
+      "relativePath": "icons/sp.png",
+      "extension": "png",
+      "size": 848,
+      "prettySize": "848 B",
+      "modifiedTime": "2019-01-14T23:44:04.860Z",
+      "accessTime": "2019-01-15T03:05:14.914Z",
+      "changeTime": "2019-01-14T23:44:04.861Z",
+      "birthTime": "2019-01-14T23:43:25.251Z",
+      "root": "/",
+      "dir": "/Users/null/Documents/Web/interaudio_v3/src/images/icons",
+      "base": "sp.png",
+      "ext": ".png",
+      "name": "sp",
+      "relativeDirectory": "icons",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4306199582,
+      "blocks": 8,
+      "atimeMs": 1547521514914.3335,
+      "mtimeMs": 1547509444860,
+      "ctimeMs": 1547509444861.0237,
+      "birthtimeMs": 1547509405250.923,
+      "atime": "2019-01-15T03:05:14.914Z",
+      "mtime": "2019-01-14T23:44:04.860Z",
+      "ctime": "2019-01-14T23:44:04.861Z",
+      "birthtime": "2019-01-14T23:43:25.251Z"
+    },
     "ecffc0e3-c512-5b00-b052-be026a8b4f19": {
       "id": "ecffc0e3-c512-5b00-b052-be026a8b4f19",
       "children": [],
       "parent": "225065cb-853d-52f5-b91c-97cd7e323a09",
       "internal": {
         "contentDigest": "4b80cd7b4f2c3bfa134871b229105493",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "2b2db314-72e1-5751-af85-aac140c4077f": {
-      "id": "2b2db314-72e1-5751-af85-aac140c4077f",
-      "children": [],
-      "parent": "e97c568e-0d53-5a7d-b08b-368c75219872",
-      "internal": {
-        "contentDigest": "536a92a51100e21f887f9fa5ffca2d2b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "e30f89a2-39f1-5ebb-afc7-f5a8b0e0bed8": {
-      "id": "e30f89a2-39f1-5ebb-afc7-f5a8b0e0bed8",
-      "children": [],
-      "parent": "50e7639e-ae88-5484-95dd-3b11e6de9f47",
-      "internal": {
-        "contentDigest": "065ada8a2d9aac3dbc74adadd79506f1",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1714,16 +1695,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "238e3aa2-2201-5ea8-a0b3-e916702b74d5": {
-      "id": "238e3aa2-2201-5ea8-a0b3-e916702b74d5",
-      "children": [],
-      "parent": "5f69456f-cd4a-5aab-91ab-1a2afc224051",
-      "internal": {
-        "contentDigest": "d6be5d625cfac9c2c4c9f7c55e62e55d",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "141ea978-a1b0-54f9-ac9f-8ffa8f17d381": {
       "id": "141ea978-a1b0-54f9-ac9f-8ffa8f17d381",
       "children": [],
@@ -1734,12 +1705,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "e9f13c0f-0ae5-50e2-8cb9-0a87307bf021": {
-      "id": "e9f13c0f-0ae5-50e2-8cb9-0a87307bf021",
+    "238e3aa2-2201-5ea8-a0b3-e916702b74d5": {
+      "id": "238e3aa2-2201-5ea8-a0b3-e916702b74d5",
       "children": [],
-      "parent": "89b2f351-402e-548e-9756-4d954ea82e65",
+      "parent": "5f69456f-cd4a-5aab-91ab-1a2afc224051",
       "internal": {
-        "contentDigest": "94e2262afcfbdad4775a6953d32d62db",
+        "contentDigest": "d6be5d625cfac9c2c4c9f7c55e62e55d",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1754,12 +1725,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "9d3edacc-1acb-5f1e-a04b-8daccfde6ddf": {
-      "id": "9d3edacc-1acb-5f1e-a04b-8daccfde6ddf",
+    "e9f13c0f-0ae5-50e2-8cb9-0a87307bf021": {
+      "id": "e9f13c0f-0ae5-50e2-8cb9-0a87307bf021",
       "children": [],
-      "parent": "f75b603b-b31a-5336-b805-f553a6b98007",
+      "parent": "89b2f351-402e-548e-9756-4d954ea82e65",
       "internal": {
-        "contentDigest": "36ec2ffa31bc5fac97430121eb87bc7c",
+        "contentDigest": "94e2262afcfbdad4775a6953d32d62db",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1770,6 +1741,36 @@
       "parent": "c570f356-0c13-549e-b7e8-4da586df8c7c",
       "internal": {
         "contentDigest": "a17aaefb2a53452d1212688b68935d1c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e30f89a2-39f1-5ebb-afc7-f5a8b0e0bed8": {
+      "id": "e30f89a2-39f1-5ebb-afc7-f5a8b0e0bed8",
+      "children": [],
+      "parent": "50e7639e-ae88-5484-95dd-3b11e6de9f47",
+      "internal": {
+        "contentDigest": "065ada8a2d9aac3dbc74adadd79506f1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9d3edacc-1acb-5f1e-a04b-8daccfde6ddf": {
+      "id": "9d3edacc-1acb-5f1e-a04b-8daccfde6ddf",
+      "children": [],
+      "parent": "f75b603b-b31a-5336-b805-f553a6b98007",
+      "internal": {
+        "contentDigest": "36ec2ffa31bc5fac97430121eb87bc7c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "2b2db314-72e1-5751-af85-aac140c4077f": {
+      "id": "2b2db314-72e1-5751-af85-aac140c4077f",
+      "children": [],
+      "parent": "e97c568e-0d53-5a7d-b08b-368c75219872",
+      "internal": {
+        "contentDigest": "536a92a51100e21f887f9fa5ffca2d2b",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1945,6 +1946,63 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "ae5ba8be-a2f2-56ea-8094-30354aa81cd9": {
+      "id": "ae5ba8be-a2f2-56ea-8094-30354aa81cd9",
+      "children": [
+        "30cf76ec-faa9-5a26-bb86-6e04d99f6892"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c57e687a197fef4bafe93cf5e677f7ef",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/EVspeakers.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/null/Documents/Web/interaudio_v3/src/images/EVspeakers.png",
+      "relativePath": "EVspeakers.png",
+      "extension": "png",
+      "size": 1021418,
+      "prettySize": "1.02 MB",
+      "modifiedTime": "2019-03-02T03:01:23.170Z",
+      "accessTime": "2019-03-17T03:47:54.405Z",
+      "changeTime": "2019-03-02T03:01:23.171Z",
+      "birthTime": "2019-03-02T03:01:08.132Z",
+      "root": "/",
+      "dir": "/Users/null/Documents/Web/interaudio_v3/src/images",
+      "base": "EVspeakers.png",
+      "ext": ".png",
+      "name": "EVspeakers",
+      "relativeDirectory": "",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4307372835,
+      "blocks": 2000,
+      "atimeMs": 1552794474405.0044,
+      "mtimeMs": 1551495683170,
+      "ctimeMs": 1551495683171.2834,
+      "birthtimeMs": 1551495668131.5618,
+      "atime": "2019-03-17T03:47:54.405Z",
+      "mtime": "2019-03-02T03:01:23.170Z",
+      "ctime": "2019-03-02T03:01:23.171Z",
+      "birthtime": "2019-03-02T03:01:08.132Z"
+    },
+    "30cf76ec-faa9-5a26-bb86-6e04d99f6892": {
+      "id": "30cf76ec-faa9-5a26-bb86-6e04d99f6892",
+      "children": [],
+      "parent": "ae5ba8be-a2f2-56ea-8094-30354aa81cd9",
+      "internal": {
+        "contentDigest": "c57e687a197fef4bafe93cf5e677f7ef",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "085d47e3-c5b7-58fd-befa-06505be8bdb8": {
       "id": "085d47e3-c5b7-58fd-befa-06505be8bdb8",
       "children": [
@@ -2085,19 +2143,23 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a495f02d37aadcfb875136e8bb73cd44"
+    "PLUGINS_HASH": "0abfebfe636589746009556fa98a09da"
   },
   "componentDataDependencies": {
     "nodes": {
+      "ae5ba8be-a2f2-56ea-8094-30354aa81cd9": [
+        "sq--src-components-home-img-background-section-jsx"
+      ],
+      "30cf76ec-faa9-5a26-bb86-6e04d99f6892": [
+        "sq--src-components-home-img-background-section-jsx"
+      ],
+      "085d47e3-c5b7-58fd-befa-06505be8bdb8": [
+        "sq--src-components-image-js"
+      ],
       "Site": [
         "sq--src-components-seo-js"
       ],
-      "085d47e3-c5b7-58fd-befa-06505be8bdb8": [
-        "sq--src-components-home-img-background-section-jsx",
-        "sq--src-components-image-js"
-      ],
       "d140e3f4-43f7-5bfa-8271-9e6d369bfe0b": [
-        "sq--src-components-home-img-background-section-jsx",
         "sq--src-components-image-js"
       ]
     },
@@ -2109,7 +2171,7 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-home-img-background-section-jsx": 1854945152,
+    "sq--src-components-home-img-background-section-jsx": 196189362,
     "sq--src-components-image-js": 1553495263,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
@@ -2129,12 +2191,12 @@
   },
   "staticQueryComponents": {
     "sq--src-components-home-img-background-section-jsx": {
-      "name": "usersNullDocumentsWebInteraudioV3SrcComponentsHomeImgBackgroundSectionJsx1854945152",
+      "name": "usersNullDocumentsWebInteraudioV3SrcComponentsHomeImgBackgroundSectionJsx196189362",
       "componentPath": "/Users/null/Documents/Web/interaudio_v3/src/components/Home_Img/BackgroundSection.jsx",
       "id": "sq--src-components-home-img-background-section-jsx",
       "jsonName": "sq--src-components-home-img-background-section-jsx",
-      "query": "query usersNullDocumentsWebInteraudioV3SrcComponentsHomeImgBackgroundSectionJsx1854945152 {\n  placeholderImage: file(relativePath: {eq: \"wedding_img.jpg\"}) {\n    childImageSharp {\n      fluid(quality: 100, maxWidth: 4160) {\n        ...GatsbyImageSharpFluid_noBase64\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_noBase64 on ImageSharpFluid {\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 1854945152
+      "query": "query usersNullDocumentsWebInteraudioV3SrcComponentsHomeImgBackgroundSectionJsx196189362 {\n  placeholderImage: file(relativePath: {eq: \"EVspeakers.png\"}) {\n    childImageSharp {\n      fluid(quality: 100, maxWidth: 4160) {\n        ...GatsbyImageSharpFluid_noBase64\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_noBase64 on ImageSharpFluid {\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 196189362
     },
     "sq--src-components-image-js": {
       "name": "usersNullDocumentsWebInteraudioV3SrcComponentsImageJs1553495263",

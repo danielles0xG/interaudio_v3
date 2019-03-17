@@ -1,0 +1,24 @@
+.contact_section{
+    width: 70%;
+    height: 25em;
+    display: flex;
+    margin: auto;
+  
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.eastwood{
+    width:50%;
+    height:100%;
+    margin:auto;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+    justify-content: inherit;
+    align-self: center;
+}

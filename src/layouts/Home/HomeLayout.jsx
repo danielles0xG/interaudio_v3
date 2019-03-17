@@ -5,10 +5,8 @@ import { SocialIcon } from "react-social-icons";
 
 import Menu from '../../components/Menu/Menu'
 import SloganImg from '../../images/slogan/slogan-transparent.png'
-//import Logo from '../../images/logo/logo_bocina3.png'
-
-import GoogleCalendar from '../../components/Calendar/Calendar'
-
+import Contact from '../../sections/Contact/Contact'
+import Paquetes from '../../components/Paquetes/Paquetes'
 
 import './HomeResets.css'
 import './HomeLayout.css'
@@ -35,36 +33,20 @@ class  HomeLayout extends React.Component{
                 
                     <div  className='slogan_container'> 
                       <img className='slogan_img' src={slogan_img} alt='Sound System Rental'/>
-                      <h4 className='sub_slogan'>Sonorización Profesional</h4>
-                      <div>                      
-                            <SocialIcon bgColor="#ffffff"  url="mailto:info@interaudio.mx"/>
-                      </div>
+                      <h4 style ={{color:'white', fontSize:'1.5rem',fontWeight:'200'}}>Cancun - Playa del Carmen - Pto.Morelos</h4>
+                      <h4 style ={{color:'white', fontSize:'2em', fontWeight:'200'}}>(998) 2 18 46 16</h4>
+                      
+         |
                     </div>       
                           
                 <BackgroundSection style={{position:'absolute'}}/>
             </div>
-
-
-              <div className='contact_section'> 
-                  
-                   <div style={{width:'50%', height:'100%',margin:'auto'}}>
-                          <form className='contact_form' action={()=> this._submitContactForm()} form='contact_form'>
-                                Name:
-                                <input  type="email" name="contact_name"/>
-                                E-mail:
-                                <input type="email" name="contact_email"/>
-                                Message:                        
-                                <textarea name='contact_form' form='contact_form'></textarea>
-                                <br/>
-                                <button >Send</button>
-                          </form>
-                      </div>
-
-                    
-                                         
-            </div>   
+            
+            
+            <Paquetes/>
+  
             <div className='footer_section'>                      
-                   <p>CopyRight © 2019 Interaudio Sound System Rental™</p>
+                   <p> Interaudio™ 2019</p>
             </div>      
             
       </div>  

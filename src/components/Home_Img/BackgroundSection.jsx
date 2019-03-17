@@ -18,7 +18,7 @@ export const BackgroundSection = ({children}) => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "wedding_img.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "EVspeakers.png" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 4160)  {
                 ...GatsbyImageSharpFluid_noBase64
