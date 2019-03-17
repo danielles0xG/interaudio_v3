@@ -5,14 +5,14 @@ import Button from 'react-bootstrap/Button';
 const JumboTron = () =>{
     return(
         <Jumbotron>
-                    <h1 style={{fontFamily:'serif'}}>Renta de Luz y Sonido Audio Profesional</h1>
-                    <p>
-                      Aseguramos la mejor calidad y potencia 
-                      ideal para su evento ! Cubrimos audiencias de 500 
-                      personas aprox.                      
+                    <h1 style={{fontFamily:'serif'}}>Renta de equipo audiovisual y sonorización profesional</h1>
+                    <p style={{fontSize:'23px'}}>
+                      Aseguramos la mejor calidad y potencia para tu evento ! 
+                      Cubrimos audiencias de hasta 500 personas.                      
                     </p>
+
                     <p>
-                      <Button variant="primary" href="mailto:info@interaudio.mx">
+                      <Button style={{float:'right'}} variant="primary" href="mailto:info@interaudio.mx">
                           Contacto
                       </Button>
                     </p>
