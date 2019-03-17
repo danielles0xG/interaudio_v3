@@ -1,24 +1,43 @@
-.wrapper{
+.wrapper_3_bundle{
  width: 100%;
   display: flex; 
   flex-wrap: wrap;
   align-content: space-around;
   flex-direction: row;
   margin: auto;
+  margin-top: 1em;
 }
-.card_wrapper{
+.card_wrapper_3_bundle{
   width:33%;
   display:flex;
   justify-content:center;
 }
 
+.wrapper_2_bundle{
+  width: 100%;
+  display: flex; 
+  flex-wrap: wrap;
+  align-content: space-around;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 1em;
+}
+.card_wrapper_2_bundle{
+  width:50%;
+  display:flex;
+  justify-content:center;
+}
 
-li{
+li, p{
   font-size: 15px;
 }
 
 @media screen and (max-width: 1000px) {
-  .card_wrapper{
+  .card_wrapper_2_bundle {
+    width:100%;
+    margin-top: 1em;
+  }
+  .card_wrapper_3_bundle {
     width:100%;
     margin-top: 1em;
   }

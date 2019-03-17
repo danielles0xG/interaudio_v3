@@ -42,14 +42,14 @@ class Menu extends React.Component{
 const menuOptions_Sp = [
     'inicio',
     'servicios',
-    'equipo',
+    'opciones',
     'contacto'
 ];
 
 const menuOptions_En = [
     'home',
     'services',
-    'equipment',
+    'options',
     'contact'
 ];
 

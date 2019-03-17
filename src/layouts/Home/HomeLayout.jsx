@@ -7,6 +7,7 @@ import Menu from '../../components/Menu/Menu'
 import SloganImg from '../../images/slogan/slogan-transparent.png'
 import Contact from '../../sections/Contact/Contact'
 import Paquetes from '../../components/Paquetes/Paquetes'
+import JumboTron from '../../components/JumboTron'
 
 import './HomeResets.css'
 import './HomeLayout.css'
@@ -34,20 +35,32 @@ class  HomeLayout extends React.Component{
                     <div  className='slogan_container'> 
                       <img className='slogan_img' src={slogan_img} alt='Sound System Rental'/>
                       <h4 style ={{color:'white', fontSize:'1.5rem',fontWeight:'200'}}>Cancun - Playa del Carmen - Pto.Morelos</h4>
-                      <h4 style ={{color:'white', fontSize:'2em', fontWeight:'200'}}>(998) 2 18 46 16</h4>
-                      
-         |
-                    </div>       
-                          
+                      <h4 style ={{color:'white', fontSize:'2em', fontWeight:'200'}}>(998) 2 18 46 16</h4>                               
+                    </div>                                 
                 <BackgroundSection style={{position:'absolute'}}/>
             </div>
+                              
+               
+
             
+
+            <section>   
+                <JumboTron/>                   
+                <Paquetes/>
+            </section>      
             
-            <Paquetes/>
+            <section >                      
+                  
+            </section>      
+            
+            <section>                      
+                   
+            </section>      
+            
   
-            <div className='footer_section'>                      
-                   <p> Interaudio™ 2019</p>
-            </div>      
+            <section >                      
+                   <p style={{float:'right'}}> Interaudio™ 2019</p>
+            </section>      
             
       </div>  
     )
