@@ -1,0 +1,9 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 3em;
+    background-color: #d3d3d3;
+    justify-content: flex-end;
+    margin-top: 1em;
+}

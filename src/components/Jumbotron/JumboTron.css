@@ -1,0 +1,18 @@
+.title{
+    font-family: serif;
+    font-size: 2em;
+}
+.title_two{
+    font-family: serif;
+    font-size: 1em;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .title {
+        font-size: 30px;
+    }
+    .title_two {
+        font-size: 15px;
+    }
+  }

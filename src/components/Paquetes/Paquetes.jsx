@@ -9,7 +9,7 @@ const Paquetes = ({}) =>{
 
          <div className='card_wrapper_3_bundle'> 
                 <div class="card" style={{width:'90%'}}>
-                <h5 class="card-header">Paquete para 100 personas.</h5>
+                <h5 class="card-header">Paquete para 100 personas</h5>
                 <div class="card-body">    
                 <h5 class="card-title"> Equipo: </h5>                
                     <ul> 
@@ -34,7 +34,7 @@ const Paquetes = ({}) =>{
 
         <div className='card_wrapper_3_bundle'> 
                 <div class="card" style={{width:'90%'}}>
-                <h5 class="card-header">Paquete para 50 personas.</h5>
+                <h5 class="card-header">Paquete para 50 personas</h5>
                 <div class="card-body">
                 <h5 class="card-title"> Equipo: </h5>
                     <ul> 

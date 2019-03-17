@@ -25,7 +25,7 @@ class Menu extends React.Component{
         return(
                 <div className='menu_desktop'>
                     {this.state.menu.map((option) => (
-                    <div>                        
+                    <div>                                         
                         <a href='#'>
                           {option.charAt(0).toUpperCase() + option.slice(1)}
                         </a>                    

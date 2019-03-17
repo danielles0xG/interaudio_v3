@@ -7,7 +7,8 @@ import Menu from '../../components/Menu/Menu'
 import SloganImg from '../../images/slogan/slogan-transparent.png'
 import Contact from '../../sections/Contact/Contact'
 import Paquetes from '../../components/Paquetes/Paquetes'
-import JumboTron from '../../components/JumboTron'
+import JumboTron from '../../components/Jumbotron/JumboTron'
+import Footer from '../../components/Footer/Footer'
 
 import './HomeResets.css'
 import './HomeLayout.css'
@@ -44,7 +45,7 @@ class  HomeLayout extends React.Component{
 
             
 
-            <section>   
+            <section className='paquetes'>   
                 <JumboTron/>                   
                 <Paquetes/>
             </section>      
@@ -58,8 +59,8 @@ class  HomeLayout extends React.Component{
             </section>      
             
   
-            <section >                      
-                   <p style={{float:'right'}}> Interaudio™ 2019</p>
+            <section >       
+              <Footer/>                                  
             </section>      
             
       </div>  
