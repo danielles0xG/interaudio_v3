@@ -6,13 +6,18 @@
     font-family: serif;
     font-size: 1em;
 }
+.jumbotron_btn{
+    float: right;
+}
 
 
 @media screen and (max-width: 1000px) {
     .title {
-        font-size: 30px;
+        font-size: 20px;
     }
     .title_two {
+
         font-size: 15px;
     }
+
   }
