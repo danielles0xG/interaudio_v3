@@ -1,7 +1,11 @@
 import React from 'react'
 import './Paquetes.css'
 import ToolTipInfo from '../ToolTip/ToolTipInfo'
+import { Paquete_100_personas } from '../../../data/paquetes.js'
 
+
+//    Rabais auto habitacion
+//    5144955170
 
 const Paquetes = ({}) =>{
     return(
@@ -10,45 +14,24 @@ const Paquetes = ({}) =>{
 
          <div className='card_wrapper_3_bundle'> 
                 <div class="card" style={{width:'90%'}}>
-                <h5 class="card-header">Paquete para 100 personas</h5>
-                <div class="card-body">    
-                <h5 class="card-title"> Equipo: </h5>                
-                    <ul> 
-                        <li >
-                            2 Bocinas activas de 15" 
-                            <ToolTipInfo key='1' info='Coax Bi-amplificadas Clase D (2000 WRMS)'/>
-                        </li>
-
-                        <li>2 Bocinas activas 
-                              <ToolTipInfo key='2' info='Coax tri-amplificadas Clase D (2000 WRMS)'/>
-                        </li>
-
-                        <li>2 Sub graves de 18" 
-                            <ToolTipInfo key='2' info='Activos Clase D (1OOO WRMS)'/>
-                        </li>
-
-                        <li>2 Mezcladoras análogas o digitales 
-                             <ToolTipInfo key='2' info='8, 12 o 16 canales'/>                    
-                        </li>
-
-                        <li>4 Micrófonos alámbricos o inalámbricos
-                            <ToolTipInfo key='2' info='Diadema, de condensador o ambientales'/>  
-                        </li>
-                        <li>Cajas directas, interfaz USB, snakes ethercon, atriles, etc.</li>
-                        <li>Iluminación básica</li>
-                        <li>Maquina de humo de 900 W</li>
-                        <li>Refuerzo sonoro dedicado para su Dj.
-                                <ToolTipInfo key='2' info='2 bocinas Monitores de referencia activos de 8", Mezcladora de 8 
-                            canales con efectos e interfaz USB, 1 micrófono y cables premium.'/> 
-                        </li>
-                        <li>6 horas de servicio. Hora extra $ 500</li>                        
-                    </ul>                
-                    <h5 class="card-title">MXN $4,500 </h5>
-                    <a style={{marginTop:'10px'}} href="mailto:info@interaudio.mx"  class="btn btn-primary"
-                      url="" > Contacto</a>
+                    <h5 class="card-header">{Paquete_100_personas.titulo}</h5>
+                    <div class="card-body">    
+                            <h5 class="card-title"> {Paquete_100_personas.subtitulo} </h5>                
+                                <ul> { Paquete_100_personas.data.map(i => (
+                                            <li key={i.info}>    
+                                                {i.info} 
+                                                {!i.tip?<p></p>:<ToolTipInfo props={i}/>}
+                                            </li> ))  }
+                                 </ul>                
+                                <h5 class="card-title"> {Paquete_100_personas.precio}</h5>
+                                <a style={{marginTop:'10px'}} href="mailto:info@interaudio.mx"  class="btn btn-primary" url="" > 
+                                    Contacto
+                                </a>
+                    </div>
                 </div>
-            </div>
         </div>
+
+    
 
         <div className='card_wrapper_3_bundle'> 
                 <div class="card" style={{width:'90%'}}>

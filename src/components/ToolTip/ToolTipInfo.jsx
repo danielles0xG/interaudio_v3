@@ -3,14 +3,27 @@ import ReactTooltip from 'react-tooltip'
 
 
 
-const ToolTipInfo = ({key,info}) => {
-    return(
-        <div style={ToolTipInfo_style}>
-            <a style={ToolTipI_style} data-tip data-for={key}>i</a>
-                <ReactTooltip id={key} type='dark'>
-                    <span>{info}</span>
-                </ReactTooltip >
-        </div>
+const ToolTipInfo = ({props}) => {
+
+    const {info,tip} = props;
+
+    return (
+         <div style={ToolTipInfo_style}>
+        <a style    = {ToolTipI_style} 
+        data-tip 
+        data-for = {info}> i </a>                
+            
+            <ReactTooltip   id     = {info}
+                            type   = 'dark' 
+                            place  = "right" 
+                            type   = "dark"
+                            effect = "float"
+                            data-html={true}>
+                            
+                    <span>{tip}</span>
+            
+            </ReactTooltip>                    
+    </div>
     )
 }
 const ToolTipInfo_style = {
@@ -29,3 +42,4 @@ const ToolTipI_style = {
     
 }
 export default ToolTipInfo;
+

@@ -41,7 +41,9 @@ class HomeLayout extends React.Component{
                       <h4 className='locations'>Cancun - Playa del Carmen - Pto.Morelos</h4>
                       <h4 style ={{color:'white', fontSize:'2em', fontWeight:'200'}}>(998) 2 18 46 16</h4>  
                       
-                      <a href="https://api.whatsapp.com/send?phone=5219982184616" target="_blank" style={{cursor:'pointer'}}>
+                      <a href="https://api.whatsapp.com/send?phone=5219982184616" target="_blank" 
+                            rel="noopener noreferrer"
+                            style={{cursor:'pointer'}}>
                           <img className='lang_flag' src={WhatsApp} alt={WhatsApp}/>
                       </a>
 
