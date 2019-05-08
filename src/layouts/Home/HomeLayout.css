@@ -62,33 +62,9 @@
 
 }
 
+.locations {
+    font-size: 1.5rem;
+    color:white !important;
+    font-weight:200;
+}
 
-
-    
-
-
-
-/* Mobile */
-
-@media screen and (max-width: 750px) {
- .speaker_logo{
-     display: none;
-    }
- .top_bar{ 
-     align-content: center;
-     align-items: center;
-     flex-direction: column;
-    }
-    .slogan_img{
-        width:20em;
-    }
-    .calendar_wrapper{
-        width: 95%;
-        height: 90%;
-    }
-    .second_section{
-        margin-top: 13em;
-
-        
-    }
-  }
