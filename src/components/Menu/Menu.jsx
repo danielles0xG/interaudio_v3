@@ -10,14 +10,14 @@ import Sp from '../../images/icons/sp.png'
 
 class Menu extends React.Component{
     state = {
-        lang :En,
+        flag : En,
         menu : menuOptions_Sp
     }
     _handleLang = () =>{
-        if(this.state.lang === En){
-           return this.setState({lang:Sp,menu:menuOptions_En})
+        if(this.state.flag === En){
+           return this.setState({flag:Sp,menu:menuOptions_En})
         }
-        return this.setState({lang:En,menu:menuOptions_Sp})
+        return this.setState({flag:En,menu:menuOptions_Sp})
     }
 
     render(){
@@ -25,18 +25,17 @@ class Menu extends React.Component{
         return(
                 <div className='menu_desktop'>
                     {this.state.menu.map((option) => (
-                    <div>                                         
-                        <a href='#'>
-                          {option.charAt(0).toUpperCase() + option.slice(1)}
-                        </a>                    
-                    </div>
+                        <div>                                         
+                            <a href='#'>
+                            {option.charAt(0).toUpperCase() + option.slice(1)}
+                            </a>                    
+                        </div>
                     ))} 
-                <img className='lang_flag' onClick={()=> this._handleLang()}
-                    src={this.state.lang} alt={this.state.lang}/>
+                {/* <img className='lang_flag' onClick={()=> this._handleLang()}
+                    src={this.state.flag} alt={this.state.flag}/> */}
                </div>
         )
     }
-
 }
 
 const menuOptions_Sp = [

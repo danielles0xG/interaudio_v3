@@ -1,4 +1,4 @@
 module.exports = [{
-      plugin: require('/Users/null/Documents/Web/interaudio_v3/gatsby-browser.js'),
+      plugin: require('/Users/null/Documents/web/interaudio_v3/gatsby-browser.js'),
       options: {"plugins":[]},
     }]

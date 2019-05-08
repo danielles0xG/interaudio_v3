@@ -1,5 +1,6 @@
 import React from 'react'
 import './Paquetes.css'
+import ToolTipInfo from '../ToolTip/ToolTipInfo'
 
 
 const Paquetes = ({}) =>{
@@ -13,16 +14,33 @@ const Paquetes = ({}) =>{
                 <div class="card-body">    
                 <h5 class="card-title"> Equipo: </h5>                
                     <ul> 
-                        <li>2 Bocinas activas de 15" coax Bi-amplificadas Clase D (2000 WRMS)</li>
-                        <li>2 Bocinas activas coax tri-amplificadas Clase D (2000 WRMS)</li>
-                        <li>2 Sub graves de 18" activos Clase D (1OOO WRMS)</li>
-                        <li>2 Mezcladoras análogas o digitales de 8, 12 o 16 canales</li>
-                        <li>4 Micrófonos alámbricos o inalámbricos, de diadema, de condensador o ambientales</li>
+                        <li >
+                            2 Bocinas activas de 15" 
+                            <ToolTipInfo key='1' info='Coax Bi-amplificadas Clase D (2000 WRMS)'/>
+                        </li>
+
+                        <li>2 Bocinas activas 
+                              <ToolTipInfo key='2' info='Coax tri-amplificadas Clase D (2000 WRMS)'/>
+                        </li>
+
+                        <li>2 Sub graves de 18" 
+                            <ToolTipInfo key='2' info='Activos Clase D (1OOO WRMS)'/>
+                        </li>
+
+                        <li>2 Mezcladoras análogas o digitales 
+                             <ToolTipInfo key='2' info='8, 12 o 16 canales'/>                    
+                        </li>
+
+                        <li>4 Micrófonos alámbricos o inalámbricos
+                            <ToolTipInfo key='2' info='Diadema, de condensador o ambientales'/>  
+                        </li>
                         <li>Cajas directas, interfaz USB, snakes ethercon, atriles, etc.</li>
                         <li>Iluminación básica</li>
                         <li>Maquina de humo de 900 W</li>
-                        <li>Refuerzo sonoro dedicado para su Dj. (2 bocinas Monitores de referencia activos de 8", Mezcladora de 8 
-                            canales con efectos e interfaz USB, 1 micrófono y cables premium.</li>
+                        <li>Refuerzo sonoro dedicado para su Dj.
+                                <ToolTipInfo key='2' info='2 bocinas Monitores de referencia activos de 8", Mezcladora de 8 
+                            canales con efectos e interfaz USB, 1 micrófono y cables premium.'/> 
+                        </li>
                         <li>6 horas de servicio. Hora extra $ 500</li>                        
                     </ul>                
                     <h5 class="card-title">MXN $4,500 </h5>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
 .wrapper_3_bundle{
  width: 100%;
   display: flex; 
@@ -27,9 +29,29 @@
   display:flex;
   justify-content:center;
 }
-
+h5{
+  font-family: 'ZCOOL XiaoWei', serif !important;
+}
 li, p{
-  font-size: 15px;
+  font-size: 15px ;
+  justify-content: space-between;
+  display: flex;
+  font-family: 'ZCOOL XiaoWei', serif;
+    
+}
+.hover_info_icon{
+    width: 5em;
+    text-align: justify;
+    height: 5em;
+    margin: 5em;
+}
+#P1_1{
+  display:none;
+
+}
+#hover_info_icon:hover #P1_1 {
+  display: inline-block;
+
 }
 
 @media screen and (max-width: 1000px) {
