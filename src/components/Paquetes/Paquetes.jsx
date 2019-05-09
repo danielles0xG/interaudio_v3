@@ -107,9 +107,7 @@ const Paquetes = ({}) =>{
         <div className='card_wrapper_2_bundle'> 
             <div class="card" style={{width:'90%'}}>
                 <h5 class="card-header">Servicios Extras</h5>
-                    <div class="card-body">       
-                                    <p> Dj's. VDj's videoproyeccion HD, fiestas, bodas, karaoke, conciertos, conferencias, eventos corporativos,
-                                refuerzo sonoro a bandas, Dj's y musicos en general.   </p>
+                    <div class="card-body">                                       
                             <ul> 
                                 <li>Servicio de Dj - MXN $1,800</li>
                                 <li>Proyector Full HD 3D 3500 Lumens + $1,500</li>

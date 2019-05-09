@@ -757,12 +757,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-05-08T23:59:52.502Z",
+      "buildTime": "2019-05-09T00:30:26.539Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0a1481d6887bcbabe95b133f331941d4",
+        "contentDigest": "c30aaa46e8947ac68cf1639771d17c72",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -992,7 +992,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "807720420dd7c30f7dc1f623c392be5b",
+        "contentDigest": "334278210f9fcd782cd98d253e67c9bf",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1004,7 +1004,7 @@
       "size": 384,
       "prettySize": "384 B",
       "modifiedTime": "2019-03-02T03:01:23.169Z",
-      "accessTime": "2019-05-09T00:00:00.406Z",
+      "accessTime": "2019-05-09T00:30:34.444Z",
       "changeTime": "2019-03-02T03:01:23.169Z",
       "birthTime": "2019-01-12T16:17:28.581Z",
       "root": "/",
@@ -1022,11 +1022,11 @@
       "blksize": 4096,
       "ino": 4305979005,
       "blocks": 0,
-      "atimeMs": 1557360000405.7075,
+      "atimeMs": 1557361834444.1118,
       "mtimeMs": 1551495683168.694,
       "ctimeMs": 1551495683168.694,
       "birthtimeMs": 1547309848581.3235,
-      "atime": "2019-05-09T00:00:00.406Z",
+      "atime": "2019-05-09T00:30:34.444Z",
       "mtime": "2019-03-02T03:01:23.169Z",
       "ctime": "2019-03-02T03:01:23.169Z",
       "birthtime": "2019-01-12T16:17:28.581Z"
@@ -1036,7 +1036,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6ce1dea69d99e452532170a7b60faca9",
+        "contentDigest": "7eccdf68ef71fd3a5021155a52145b1f",
         "type": "Directory",
         "description": "Directory \"src/images/icons\"",
         "owner": "gatsby-source-filesystem"
@@ -1048,7 +1048,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-05-08T18:56:26.158Z",
-      "accessTime": "2019-05-09T00:00:00.429Z",
+      "accessTime": "2019-05-09T00:30:34.453Z",
       "changeTime": "2019-05-08T18:56:26.158Z",
       "birthTime": "2019-01-14T23:42:35.307Z",
       "root": "/",
@@ -1066,11 +1066,11 @@
       "blksize": 4096,
       "ino": 4306199467,
       "blocks": 0,
-      "atimeMs": 1557360000429.2253,
+      "atimeMs": 1557361834453.1023,
       "mtimeMs": 1557341786158.266,
       "ctimeMs": 1557341786158.266,
       "birthtimeMs": 1547509355306.7576,
-      "atime": "2019-05-09T00:00:00.429Z",
+      "atime": "2019-05-09T00:30:34.453Z",
       "mtime": "2019-05-08T18:56:26.158Z",
       "ctime": "2019-05-08T18:56:26.158Z",
       "birthtime": "2019-01-14T23:42:35.307Z"
@@ -1080,7 +1080,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f7bc069ac61787503c78c994d046a95a",
+        "contentDigest": "e55b24d33e38cb1a48278a3e097365b1",
         "type": "Directory",
         "description": "Directory \"src/images/logo\"",
         "owner": "gatsby-source-filesystem"
@@ -1092,7 +1092,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-13T23:21:00.084Z",
-      "accessTime": "2019-05-09T00:00:00.429Z",
+      "accessTime": "2019-05-09T00:30:34.453Z",
       "changeTime": "2019-01-13T23:21:00.084Z",
       "birthTime": "2019-01-12T16:26:23.876Z",
       "root": "/",
@@ -1110,11 +1110,11 @@
       "blksize": 4096,
       "ino": 4306022711,
       "blocks": 0,
-      "atimeMs": 1557360000429.243,
+      "atimeMs": 1557361834453.0542,
       "mtimeMs": 1547421660083.7324,
       "ctimeMs": 1547421660083.7324,
       "birthtimeMs": 1547310383876.0376,
-      "atime": "2019-05-09T00:00:00.429Z",
+      "atime": "2019-05-09T00:30:34.453Z",
       "mtime": "2019-01-13T23:21:00.084Z",
       "ctime": "2019-01-13T23:21:00.084Z",
       "birthtime": "2019-01-12T16:26:23.876Z"
@@ -1124,7 +1124,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f5d901fe440a8a8d2b6abc2493e1ad2d",
+        "contentDigest": "2784e914b28071ec1efe083c0b3b35b9",
         "type": "Directory",
         "description": "Directory \"src/images/slogan\"",
         "owner": "gatsby-source-filesystem"
@@ -1136,7 +1136,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-13T23:08:47.494Z",
-      "accessTime": "2019-05-09T00:00:00.430Z",
+      "accessTime": "2019-05-09T00:30:34.453Z",
       "changeTime": "2019-01-13T23:08:47.494Z",
       "birthTime": "2019-01-12T16:26:33.582Z",
       "root": "/",
@@ -1154,11 +1154,11 @@
       "blksize": 4096,
       "ino": 4306022714,
       "blocks": 0,
-      "atimeMs": 1557360000429.6904,
+      "atimeMs": 1557361834453.1404,
       "mtimeMs": 1547420927493.691,
       "ctimeMs": 1547420927493.691,
       "birthtimeMs": 1547310393582.2056,
-      "atime": "2019-05-09T00:00:00.430Z",
+      "atime": "2019-05-09T00:30:34.453Z",
       "mtime": "2019-01-13T23:08:47.494Z",
       "ctime": "2019-01-13T23:08:47.494Z",
       "birthtime": "2019-01-12T16:26:33.582Z"

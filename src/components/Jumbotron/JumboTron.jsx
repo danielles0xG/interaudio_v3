@@ -8,9 +8,7 @@ const JumboTron = () =>{
     return(
         <Jumbotron style={{padding:'3rem 2rem'}}>
                     <h1 className='title'> Renta de audio e iluminaciôn profesional </h1>
-                        <p className='title_two'>
-
-                        Aseguramos la mejor calidad y potencia para tu evento ! 
+                        <p className='title_two'>                       
                           Cubrimos audiencias de hasta 300 personas.                      
                         </p>
                     
@@ -18,8 +16,10 @@ const JumboTron = () =>{
                                                      
                        </p>
                        <p className='title_two'>
-                            Cancún, Playa del Carmen, Tulúm, Cozumel, Isla Mujeres<br/>
-                            Spoken english.   
+                                Dj's. VDj's videoproyeccion HD | Fiestas | Bodas | Karaoke | Conciertos | Conferencias
+                                | Eventos corporativos | Refuerzo sonoro a bandas |
+                                 Dj's | Musicos en general. <br/>
+                                Spoken english.   
                        </p>
 
                         <p>
