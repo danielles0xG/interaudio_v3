@@ -16,7 +16,7 @@ const Paquete_100_personas = {
                     tip  : 'Coax Bi-amplificadas Clase D (2000 WRMS)'
                 },
                 {
-                    info : '2 Bocinas activas de 18"',
+                    info : '2 Subwoofers activas de 18"',
                     tip  : 'Activos Clase D (1OOO WRMS)'
                 },
                 {
