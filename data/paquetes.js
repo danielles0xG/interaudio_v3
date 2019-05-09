@@ -7,7 +7,7 @@
     Si no hay tip pones alla : null
 */
 const Paquete_100_personas = {
-    titulo:    'Paquete para 100 personas',
+    titulo:    'Paquete 100 personas',
     subtitulo: 'Equipo',
     precio:    'MXN $4,500',
     data: [

@@ -35,7 +35,7 @@ const Paquetes = ({}) =>{
 
         <div className='card_wrapper_3_bundle'> 
                 <div class="card" style={{width:'90%'}}>
-                <h5 class="card-header">Paquete para 50 personas</h5>
+                <h5 class="card-header">Paquete 50 personas</h5>
                 <div class="card-body">
                 <h5 class="card-title"> Equipo: </h5>
                     <ul> 
@@ -61,7 +61,7 @@ const Paquetes = ({}) =>{
 
         <div className='card_wrapper_3_bundle'> 
             <div class="card" style={{width:'90%'}}>
-            <h5 class="card-header">Paquete para 25 personas</h5>
+            <h5 class="card-header">Paquete 25 personas</h5>
             <div class="card-body">                
                 <h5 class="card-title"> Equipo: </h5>
                 <ul> 
@@ -107,9 +107,13 @@ const Paquetes = ({}) =>{
         <div className='card_wrapper_2_bundle'> 
             <div class="card" style={{width:'90%'}}>
                 <h5 class="card-header">Servicios Extras</h5>
-                    <div class="card-body">                        
+                    <div class="card-body">       
+                                    <p> Dj's. VDj's videoproyeccion HD, fiestas, bodas, karaoke, conciertos, conferencias, eventos corporativos,
+                                refuerzo sonoro a bandas, Dj's y musicos en general.   </p>
                             <ul> 
-                                <li>Servicio de Dj - MXN $1,500</li>
+                                <li>Servicio de Dj - MXN $1,800</li>
+                                <li>Proyector Full HD 3D 3500 Lumens + $1,500</li>
+                                <li>Dj / Vdj con booth iluminado y monitores + $1800</li>
                                 <li>Videoproyección HD - MXN $1,000</li>
                                 <li>Pista de leds. Cotizar.</li>                                       
                             </ul>                           

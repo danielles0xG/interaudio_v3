@@ -38,7 +38,9 @@ class HomeLayout extends React.Component{
                 
                     <div  className='slogan_container'> 
                       <img className='slogan_img' src={slogan_img} alt='Sound System Rental'/>
-                      <h4 className='locations'>Cancun - Playa del Carmen - Pto.Morelos</h4>
+                      <h4 className='locations'>
+                          CANCUN PDC - TULUM - COZUMEL - ISLA MUJERES
+                      </h4>
                       <h4 style ={{color:'white', fontSize:'2em', fontWeight:'200'}}>(998) 2 18 46 16</h4>  
                       
                       <a href="https://api.whatsapp.com/send?phone=5219982184616" target="_blank" 
