@@ -12,9 +12,7 @@ const JumboTron = () =>{
                           Cubrimos audiencias de hasta 300 personas.                      
                         </p>
                     
-                        <p className='title_two'>
-                                                     
-                       </p>
+
                        <p className='title_two'>
                                 Dj's. VDj's videoproyeccion HD | Fiestas | Bodas | Karaoke | Conciertos | Conferencias
                                 | Eventos corporativos | Refuerzo sonoro a bandas |

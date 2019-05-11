@@ -13,12 +13,14 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
     .title {
-        font-size: 2em;
+        font-size: 1.5rem;
+        
     }
     .title_two {
-        font-size: 1.5rem;
+        font-size: 1em;
+        
     }
 
   }

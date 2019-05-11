@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
 
-.wrapper_3_bundle{
+.wrapper_main{
  width: 100%;
   display: flex; 
   flex-wrap: wrap;
-  align-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   margin: auto;
   margin-top: 1em;
-}
-.card_wrapper_3_bundle{
-  width:33%;
-  display:flex;
-  justify-content:center;
 }
 
 .wrapper_2_bundle{

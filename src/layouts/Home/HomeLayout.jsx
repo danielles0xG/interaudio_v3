@@ -9,8 +9,8 @@ import Contact from '../../sections/Contact/Contact'
 import Paquetes from '../../components/Paquetes/Paquetes'
 import JumboTron from '../../components/Jumbotron/JumboTron'
 import Footer from '../../components/Footer/Footer'
-
 import WhatsApp from '../../images/icons/whatsapp-92px.svg'
+import {main,second} from '../../../data/data_paquetes'
 
 import './HomeResets.css'
 import './HomeLayout.css'
@@ -28,35 +28,32 @@ class HomeLayout extends React.Component{
     //const logo = Logo;
     return(
       <div>
-          <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />  
+          <SEO title="Home" keywords={[`application`, `react`]} />  
                  <div className='top_bar'> 
                       {/* <img  className='speaker_logo' src={logo} alt='InterAudio'/> */ }
                         <Menu/>               
                   </div>
 
             <div className='landing_section' >                
-                
                     <div  className='slogan_container'> 
-                      <img className='slogan_img' src={slogan_img} alt='Sound System Rental'/>
-                      <h4 className='locations'>
-                          CANCUN PDC - TULUM - COZUMEL - ISLA MUJERES
-                      </h4>
-                      <h4 style ={{color:'white', fontSize:'2em', fontWeight:'200'}}>(998) 2 18 46 16</h4>  
-                      
-                      <a href="https://api.whatsapp.com/send?phone=5219982184616" target="_blank" 
-                            rel="noopener noreferrer"
-                            style={{cursor:'pointer'}}>
-                          <img className='lang_flag' src={WhatsApp} alt={WhatsApp}/>
-                      </a>
-
+                          <img className='slogan_img' src={slogan_img} alt='Sound System Rental'/>
+                          <h4 className='locations'>
+                                CANCUN - TULUM - COZUMEL - ISLA MUJERES
+                          </h4>
+                          <h4 style ={{color:'white', fontSize:'2em', fontWeight:'200'}}>(998) 2 18 46 16</h4>  
+                          
+                          <a href="https://api.whatsapp.com/send?phone=5219982184616" target="_blank" 
+                                rel="noopener noreferrer"
+                                style={{cursor:'pointer'}}>
+                              <img className='lang_flag' src={WhatsApp} alt={WhatsApp}/>
+                          </a>
                     </div>                                 
-                <BackgroundSection style={{position:'absolute'}}/>
+                    <BackgroundSection style={{position:'absolute'}}/>
             </div>                                             
-
-          
+            
             <section className='paquetes'>   
                 <JumboTron/>                   
-                <Paquetes/>
+                <Paquetes  main={main} second={second}/>
             </section>      
             
             <section >                      

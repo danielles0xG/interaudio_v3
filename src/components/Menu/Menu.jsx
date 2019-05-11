@@ -2,6 +2,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import './Menu.css'
+import './Menu_mobile.css'
 import En from '../../images/icons/en.png'
 import Sp from '../../images/icons/sp.png'
 
