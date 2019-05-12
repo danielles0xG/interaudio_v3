@@ -21,11 +21,7 @@ const Paquetes = ({main,second}) =>{
                                         </li> ))  }                                                               
                                     </ul>                
                                     <h5 class="card-title"> {i.precio}</h5>
-                                    <a   style={{marginTop:'10px'}} 
-                                        href="mailto:info@interaudio.mx"  
-                                        class="btn btn-primary" url="" > 
-                                            Contacto
-                                    </a>
+                                    <a style={{marginTop:'10px'}} href="mailto:info@interaudio.mx" class="btn btn-primary" url="">Contact </a>
                         </div>
                     </div>
                 ))}                                      
