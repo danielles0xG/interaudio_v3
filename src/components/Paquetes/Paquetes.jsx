@@ -35,27 +35,6 @@ const Paquetes = ({main,second}) =>{
 
                 <div className='card_wrapper_2_bundle'> 
                     <div class="card" style={{width:'90%'}}>
-                        <h5 class="card-header">Karaoke Express</h5>
-                            <div class="card-body">
-                                
-
-                                <p>Recomendado para pequeñas reuniones privadas donde no requiera 
-                                    de mucho equipo y disponga de una TV y laptop con conexión a internet. 
-                                    Se le entrega un sistema de audio compacto configurado a su equipo, 1 micrófono i
-                                    nalámbrico, 1 interfaz de audio USB para su laptop, 15 Mts. de cable de video HDMI,
-                                    cuentas premium de Youtube y Spotify para una reproducción multimedia de calidad y 
-                                    sin interrupciones.
-                                </p> 
-
-                                <h5 class="card-title">MXN  $1,800 </h5>
-
-                                <a href="mailto:info@interaudio.mx" class="btn btn-primary">Contacto</a>
-                            </div>
-                    </div>
-                </div>  
-
-                <div className='card_wrapper_2_bundle'> 
-                    <div class="card" style={{width:'90%'}}>
                         <h5 class="card-header">Servicios Extras</h5>
                             <div class="card-body">                                       
                                     <ul> 
