@@ -21,22 +21,20 @@ const Paquetes = ({main,second}) =>{
                                         </li> ))  }                                                               
                                     </ul>                
                                     <h5 class="card-title"> {i.precio}</h5>
-                                    <a style={{marginTop:'10px'}} href="mailto:info@interaudio.mx" class="btn btn-primary" url="">Contact </a>
+                                    <a style={{marginTop:'10px'}} href="mailto:contacto@interaudio.mx" class="btn btn-primary" url="">Contact </a>
                         </div>
                     </div>
                 ))}          
 
                         <div class="card" >
-                                                <h5 class="card-header">Servicios Extras</h5>
+                                                <h5 class="card-header">Servicios Extras (6hrs)</h5>
                                                     <div class="card-body">                                       
                                                             <ul> 
-                                                                <li>Servicio de Dj - MXN $1,800</li>
-                                                                <li>Proyector Full HD 3D 3500 Lumens + $1,500</li>
-                                                                <li>Dj / Vdj con booth iluminado y monitores + $1800</li>
-                                                                <li>Videoproyección HD - MXN $1,000</li>
+                                                                <li>Dj/Vdj con booth y monitores - MXN $1,800</li>
+                                                                <li>Videoproyección HD 3D (3500 Lumens) + $1,500</li>
                                                                 <li>Pista de leds. Cotizar.</li>                                       
                                                             </ul>                           
-                                                        <a href="mailto:info@interaudio.mx" class="btn btn-primary">Contacto</a>
+                                                        <a href="mailto:contacto@interaudio.mx" class="btn btn-primary">Contacto</a>
                                                     </div>
                                             </div>
                  </div>
