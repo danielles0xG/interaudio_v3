@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+.jumbotron_wrapper{
 
+    padding: .5rem 2rem;
+    
+}
 .title{
     font-family: 'ZCOOL XiaoWei', serif;
     font-size: 3em;
@@ -21,6 +25,9 @@
     .title_two {
         font-size: 1em;
         
+    }
+    .wrapper{
+        width: 100%;
     }
 
   }

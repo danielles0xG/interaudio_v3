@@ -14,7 +14,7 @@
   width: 100%;
   display: flex; 
   flex-wrap: wrap;
-  align-content: space-around;
+  align-content: center;
   flex-direction: row;
   margin: auto;
   margin-top: 1em;

@@ -7,7 +7,7 @@ import Menu from '../../components/Menu/Menu'
 import SloganImg from '../../images/slogan/slogan-transparent.png'
 import Contact from '../../sections/Contact/Contact'
 import Paquetes from '../../components/Paquetes/Paquetes'
-import JumboTron from '../../components/Jumbotron/JumboTron'
+import CustomJumboTron from '../../components/Jumbotron/CustomJumboTron'
 import Footer from '../../components/Footer/Footer'
 import WhatsApp from '../../images/icons/whatsapp-92px.svg'
 import {main,second} from '../../../data/data_paquetes'
@@ -15,6 +15,7 @@ import {main,second} from '../../../data/data_paquetes'
 import './HomeResets.css'
 import './HomeLayout.css'
 import './HomeLayout_mobile.css'
+import ControlledCarousel from '../../components/Carousel/ControlledCarousel'
 
  
 class HomeLayout extends React.Component{
@@ -51,12 +52,20 @@ class HomeLayout extends React.Component{
                     <BackgroundSection style={{position:'absolute'}}/>
             </div>                                             
             
-            <section className='paquetes'>   
-                <JumboTron/>                   
-                <Paquetes  main={main} second={second}/>
-            </section>      
+              <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-6">
+                        <ControlledCarousel/>                          
+                    </div>
+                    <div class="col-6">
+                        <CustomJumboTron/> 
+                    </div>
+              </div>  
+            </div>  
             
-            <section >                      
+            <section className='paquetes' name='opciones'>        
+                 
+                  <Paquetes  main={main} second={second}/>
                   
             </section>      
             

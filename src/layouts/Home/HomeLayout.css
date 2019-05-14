@@ -7,6 +7,15 @@
     background-attachment: fixed;
 }
 
+.landing_section_2{
+
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 1em;
+}
 .slogan_container{
         align-items: center; 
         display: flex;

@@ -1,12 +1,11 @@
 import React from 'react'
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Button from 'react-bootstrap/Button';
 
-import './JumboTron.css'
 
-const JumboTron = () =>{
+import './CustomJumboTron.css'
+
+const CustomJumboTron = () =>{
     return(
-        <Jumbotron style={{padding:'3rem 2rem'}}>
+        <div className='jumbotron_wrapper'>
                     <h1 className='title'> Renta de audio e iluminaciôn profesional </h1>
                         <p className='title_two'>                       
                           Cubrimos audiencias de hasta 300 personas.                      
@@ -21,14 +20,11 @@ const JumboTron = () =>{
                        </p>
 
                         <p>
-                        <Button className='jumbotron_btn' variant="secondary" href="mailto:info@interaudio.mx" 
-                                style={{float:'right'}}>
-                            Contactanos
-                        </Button>                                                                                     
+                        <a style={{marginTop:'10px'}} href="mailto:info@interaudio.mx" class="btn btn-primary" url="">Contacto </a>                                                                               
                         </p>
                         
-        </Jumbotron>
+        </div>
     )
 }
-export default JumboTron;
+export default CustomJumboTron;
 
