@@ -17,20 +17,20 @@ import _12_Sistema_lineal_compacto_array_450_W      from '../../images/Media/12_
 import _13_Wall_of_Sound                            from '../../images/Media/13_Wall_of_Sound.jpg';
 
 const media = [
-_01_Pristine_audio_quality,
-_02_Sonorización_Profesional,
-_03_Live_Sound,
-_04_Refuerzo_Sonoro,
-_05_Dj_VDj,
-_06_International_Djs,
-_07_Mezcla_y_grabación_en_vivo,
-_08_PA_Speakers_rental,
-_09_Pool_parties,
-_10_Fiestas_de_cumpleaños,
-_11_Pool_party,
-_12_Sistema_lineal_compacto_array_450_W,
-_13_Wall_of_Sound]
-const styles = { height: 400, width: "100%" };
+                _01_Pristine_audio_quality,
+                _02_Sonorización_Profesional,
+                _03_Live_Sound,
+                _04_Refuerzo_Sonoro,
+                _05_Dj_VDj,
+                _06_International_Djs,
+                _07_Mezcla_y_grabación_en_vivo,
+                _08_PA_Speakers_rental,
+                _09_Pool_parties,
+                _10_Fiestas_de_cumpleaños,
+                _11_Pool_party,
+                _12_Sistema_lineal_compacto_array_450_W,
+                _13_Wall_of_Sound 
+              ]
 
 class ControlledCarousel extends React.PureComponent {
   constructor(props) {
