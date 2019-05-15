@@ -36,9 +36,31 @@ class ControlledCarousel extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      autoplay: true
+      autoplay: true,
+      carousel:null
     };
   }
+    
+  componentDidMount(leftIcon,rightIcon,onSelect){
+      this.setState({carousel: <div className="container-fluid" style={{width:'100%'}}>
+                                <Col span={12} style={{ paddingTop: "20px"  }}>
+                                      <RBCarousel animation={true} autoplay={this.state.autoplay} 
+                                      slideshowSpeed={3000} leftIcon={leftIcon} 
+                                      rightIcon={rightIcon} onSelect={onSelect}
+                                      ref={r => (this.slider = r)} version={4}>
+                                              {media.map(i=>(
+                                                  <div style={{ height: 400 }}>
+                                                      <img style={{ width: "100%", height: "100%" }} src={i} />
+                                                      {/*<div className="carousel-caption">{i.substring(4,i.length).replace(/_/g, " ")}</div>*/}
+                                                  </div>
+                                                ))
+                                      }             
+                                  </RBCarousel>
+                              </Col>
+                          </div>
+                      })
+  }
+
   onSelect = (active, direction) => {
     console.log(`active=${active} && direction=${direction}`);
   };
@@ -63,28 +85,10 @@ class ControlledCarousel extends React.PureComponent {
     rightIcon = rightIcon ? undefined : <span className="fa fa-music" />;
     this.setState({ leftIcon, rightIcon });
   };
+
   render() {
-    let { leftIcon, rightIcon } = this.state;
-    return (
-      <div className="container-fluid" style={{width:'100%'}}>
-               
-          <Col span={12} style={{ paddingTop: "20px"  }}>
-            <RBCarousel animation={true} autoplay={this.state.autoplay} 
-                        slideshowSpeed={3000} leftIcon={leftIcon} 
-                        rightIcon={rightIcon} onSelect={this.onSelect}
-                        ref={r => (this.slider = r)} version={4}>
-                    {media.map(i=>(
-                            <div style={{ height: 400 }}>
-                                <img style={{ width: "100%", height: "100%" }} src={i} />
-                                {/*<div className="carousel-caption">{i.substring(4,i.length).replace(/_/g, " ")}</div>*/}
-                            </div>
-                    ))
-                }             
-            </RBCarousel>
-          </Col>
-        
-      </div>
-    );
+    const { carousel } =  this.state
+    return(carousel)
   }
 }
 
