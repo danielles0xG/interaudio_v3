@@ -42,6 +42,7 @@ class ControlledCarousel extends React.PureComponent {
   }
     
   componentDidMount(leftIcon,rightIcon,onSelect){
+    typeof window !== 'undefined'?
       this.setState({carousel: <div className="container-fluid" style={{width:'100%'}}>
                                 <Col span={12} style={{ paddingTop: "20px"  }}>
                                       <RBCarousel animation={true} autoplay={this.state.autoplay} 
@@ -59,6 +60,7 @@ class ControlledCarousel extends React.PureComponent {
                               </Col>
                           </div>
                       })
+                      :null
   }
 
   onSelect = (active, direction) => {
