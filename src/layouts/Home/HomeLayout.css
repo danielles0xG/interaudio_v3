@@ -15,7 +15,24 @@
   flex-direction: row;
   margin: auto;
   margin-top: 1em;
+  height:auto;
+  width: 100%;
+  padding: .5rem;
+  
 }
+.landing_section_2_column_1{
+    flex: 0 0 50%;
+    max-width: 50%;
+
+}
+.landing_section_2_column_2{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: -1.5rem;
+
+
+}
+
 .slogan_container{
         align-items: center; 
         display: flex;

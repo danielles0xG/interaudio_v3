@@ -1,5 +1,7 @@
 import React from 'react'
-
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import './ControlledCarousel.css'
 
 import _01_Pristine_audio_quality                   from '../../images/Media/1_Pristine_audio_quality.jpg';
 import _02_Sonorización_Profesional                 from '../../images/Media/2_Sonorización_Profesional.jpg';
@@ -35,84 +37,24 @@ class ControlledCarousel extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      autoplay: true,
-      carousel:null
+      slide:1
     };
   }
-    
-  componentDidMount(leftIcon,rightIcon,onSelect){
-    
-    if(typeof window !== 'undefined'){
-      import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-      import RBCarousel from "react-bootstrap-carousel";
-      this.setState({carousel: <div className="container-fluid" style={{width:'100%'}}>
-                                <Col span={12} style={{ paddingTop: "20px"  }}>
-                                      <RBCarousel animation={true} autoplay={this.state.autoplay} 
-                                      slideshowSpeed={3000} leftIcon={leftIcon} 
-                                      rightIcon={rightIcon} onSelect={onSelect}
-                                      ref={r => (this.slider = r)} version={4}>
-                                              {media.map(i=>(
-                                                  <div style={{ height: 400 }}>
-                                                      <img style={{ width: "100%", height: "100%" }} src={i} />
-                                                      {/*<div className="carousel-caption">{i.substring(4,i.length).replace(/_/g, " ")}</div>*/}
-                                                  </div>
-                                                ))
-                                      }             
-                                  </RBCarousel>
-                              </Col>
-                          </div>
-                      })
 
-    }
-  }
-
-  onSelect = (active, direction) => {
-    console.log(`active=${active} && direction=${direction}`);
-  };
-  visiableOnSelect = active => {
-    console.log(`visiable onSelect active=${active}`);
-  };
-  slideNext = () => {
-    this.slider.slideNext();
-  };
-  slidePrev = () => {
-    this.slider.slidePrev();
-  };
-  goToSlide = () => {
-    this.slider.goToSlide(4);
-  };
-  autoplay = () => {
-    this.setState({ autoplay: !this.state.autoplay });
-  };
-  _changeIcon = () => {
-    let { leftIcon, rightIcon } = this.state;
-    leftIcon = leftIcon ? undefined : <span className="fa fa-glass" />;
-    rightIcon = rightIcon ? undefined : <span className="fa fa-music" />;
-    this.setState({ leftIcon, rightIcon });
-  };
-
-  render() {
-    const { carousel } =  this.state
-    return(carousel)
+render() {
+      return(
+        <div>
+          <h1 className='carousel_title'> Renta de audio e iluminaciôn profesional </h1>
+                  <Carousel >
+                    {media.map(i=>(
+                            <div className='carousel_height' key={i}>
+                                <img src={i}  />                          
+                            </div>
+                    ))}                  
+                  </Carousel>
+        </div>
+    )
   }
 }
 
-/**
- *  Boostrap Component
- */
-const Row = props => <div className="row">{props.children}</div>;
-const Col = props => (
-  <div className={`col-${props.span}`} style={props.style}>
-    {props.children}
-  </div>
-);
-const Button = props => {
-  const { style, bsStyle, onClick } = props;
-  const className = bsStyle ? `btn btn-${bsStyle}` : "btn";
-  return (
-    <button style={style} className={className} onClick={onClick}>
-      {props.children}
-    </button>
-  );
-};
 export default ControlledCarousel

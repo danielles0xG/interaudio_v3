@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 500px) {
     .title {
-        font-size: 1.5rem;
+        display:none;
         
     }
     .title_two {

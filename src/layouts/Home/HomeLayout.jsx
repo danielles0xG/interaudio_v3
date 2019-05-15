@@ -51,16 +51,15 @@ class HomeLayout extends React.Component{
                     </div>                                 
                     <BackgroundSection style={{position:'absolute'}}/>
             </div>                                             
-            
-              <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">
+           
+              <div className="landing_section_2">
+                    <div className="landing_section_2_column_1">
+                   
                         <ControlledCarousel/>                          
                     </div>
-                    <div class="col-6">
+                    <div className="landing_section_2_column_2">
                         <CustomJumboTron/> 
-                    </div>
-              </div>  
+                    </div>            
             </div>  
             
             <section className='paquetes' name='opciones'>        
