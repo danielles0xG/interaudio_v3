@@ -1,6 +1,5 @@
 import React from 'react'
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-import RBCarousel from "react-bootstrap-carousel";
+
 
 import _01_Pristine_audio_quality                   from '../../images/Media/1_Pristine_audio_quality.jpg';
 import _02_Sonorización_Profesional                 from '../../images/Media/2_Sonorización_Profesional.jpg';
@@ -42,7 +41,10 @@ class ControlledCarousel extends React.PureComponent {
   }
     
   componentDidMount(leftIcon,rightIcon,onSelect){
-    typeof window !== 'undefined'?
+    
+    if(typeof window !== 'undefined'){
+      import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+      import RBCarousel from "react-bootstrap-carousel";
       this.setState({carousel: <div className="container-fluid" style={{width:'100%'}}>
                                 <Col span={12} style={{ paddingTop: "20px"  }}>
                                       <RBCarousel animation={true} autoplay={this.state.autoplay} 
@@ -60,7 +62,8 @@ class ControlledCarousel extends React.PureComponent {
                               </Col>
                           </div>
                       })
-                      :null
+
+    }
   }
 
   onSelect = (active, direction) => {
