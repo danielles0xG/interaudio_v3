@@ -16,6 +16,7 @@ import _10_Fiestas_de_cumpleaños                    from '../../images/Media/10
 import _11_Pool_party                               from '../../images/Media/11_Pool_party.jpg';
 import _12_Sistema_lineal_compacto_array_450_W      from '../../images/Media/12_Sistema_lineal_compacto_array_450_W.jpg';
 import _13_Wall_of_Sound                            from '../../images/Media/13_Wall_of_Sound.jpg';
+import _14_Israeliens                               from '../../images/Media/14_Israeliens.jpg'
 
 const media = [
                 _01_Pristine_audio_quality,
@@ -30,7 +31,8 @@ const media = [
                 _10_Fiestas_de_cumpleaños,
                 _11_Pool_party,
                 _12_Sistema_lineal_compacto_array_450_W,
-                _13_Wall_of_Sound 
+                _13_Wall_of_Sound,
+                _14_Israeliens
               ]
 
 class ControlledCarousel extends React.PureComponent {
