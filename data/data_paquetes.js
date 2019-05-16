@@ -9,7 +9,7 @@
 */
 const main = [{
   id:        '1.1',
-  titulo:    'Paquete 100 personas',
+  titulo:    'Paquete Completo',
   subtitulo: 'Equipo',
   precio:    'MXN $5,500',
   data: [
@@ -45,7 +45,7 @@ const main = [{
 },
 {
   id:        '1.2',
-  titulo:    'Paquete 50 personas',
+  titulo:    'Paquete Intermedio',
   subtitulo: 'Equipo',
   precio:    'MXN $4,500',
   data: [
@@ -81,7 +81,7 @@ const main = [{
 },
 {
   id:        '1.3',
-  titulo:    'Paquete 25 personas',
+  titulo:    'Paquete Basico',
   subtitulo: 'Equipo',
   precio:    'MXN $3,500',
   data: [
