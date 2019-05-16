@@ -11,34 +11,30 @@ const main = [{
     id:        '1.1',
     titulo:    'Paquete 100 personas',
     subtitulo: 'Equipo',
-    precio:    'MXN $4,500',
+    precio:    'MXN $5,500',
     data: [
                 { 
-                    info : '2 Bocinas activas de 15"', 
-                    tip  : 'Coax Bi-amplificadas Clase D (2000 WRMS)'
+                    info : '2 Bocinas activas de 15" y DSP', 
+                    tip  : 'Coax Bi-amplificadas / Clase D (2000 WRMS)'
                 },
                 {
-                    info : '2 Subwoofers activas de 18"',
-                    tip  : 'Activos Clase D (1OOO WRMS)'
+                    info : '2 Subwoofers activos de 18"',
+                    tip  : 'Clase D (1OOO WRMS)'
                 },
                 {
-                    info : '2 Mezcladoras análogas o digitales',
-                    tip  : '8, 12 o 16 canales'
+                    info : 'Mezcladoras análogas o digitales',
+                    tip  : 'de 8, 12 o 16 canales'
                 },
                 {
-                    info : '4 Micrófonos alámbricos o inalámbricos',
-                    tip  : 'Diadema, de condensador o ambientales'
+                    info : 'Micrófonos dinámicos',
+                    tip  : 'alámbricos, inalámbricos o de diadema'
                 },
                 {
-                    info : 'Refuerzo sonoro dedicado para su Dj.',
-                    tip  : '2 bocinas Monitores de referencia activos de 8", Mezcladora de 8 canales con efectos e interfaz USB, 1 micrófono y cables premium,Cajas directas, interfaz USB, snakes ethercon, atriles, etc.'
+                    info : 'Iluminación DMX 512',
+                    tip  : 'Pares led, robóticas, efectos, luz negra, máquina de humo'
                 },
                 {
-                    info : 'Iluminación básica',
-                    tip  : null
-                },
-                {
-                    info : 'Maquina de humo de 900 W',
+                    info : 'Cajas directas, snakes, cables premium, atriles, etc',
                     tip  : null
                 },
                 {
@@ -51,42 +47,34 @@ const main = [{
     id:        '1.2',
     titulo:    'Paquete 50 personas',
     subtitulo: 'Equipo',
-    precio:    'MXN $3,500',
+    precio:    'MXN $4,500',
     data: [
                 { 
                     info : '2 Bocinas activas', 
-                    tip  : 'Coax Bi-amplificadas Clase D (2000 WRMS)'
+                    tip  : 'Coax Bi-amplificadas / Clase D (2000 WRMS)'
                 },
                 {
-                    info : '1 Subwoofers activas de 18"',
-                    tip  : 'Activos Clase D (1OOO WRMS)'
+                    info : '1 Subwoofer activo de 18"',
+                    tip  : 'Clase D (1OOO WRMS)'
                 },
                 {
-                    info : '1 Mezcladoras análogas o digitales',
-                    tip  : '8, 12 o 16 canales'
+                    info : 'Mezcladora análoga o digital',
+                    tip  : 'de 8, 12 o 16 canales'
                 },
                 {
-                    info : 'Gestión inalámbrica por Wifi',
+                    info : 'Micrófonos dinámicos',
+                    tip  : 'alámbricos, inalámbricos o de diadema'
+                },
+                {
+                    info : 'Iluminación DMX 512',
+                    tip  : 'Pares led, robóticas, efectos, luz negra, máquina de humo'
+                },
+                {
+                    info : 'Cajas directas, snakes, cables premium, atriles, etc',
                     tip  : null
                 },
                 {
-                    info : 'Cajas directas, interfaz de audio',
-                    tip  : 'snakes ethercon, atriles'
-                },
-                {
-                    info : 'Maquina de humo',
-                    tip  : 'control remoto (900 W)'
-                },
-                {
-                    info : 'Refuerzo sonoro dedicado para su Dj',
-                    tip  : '2 bocinas Monitores de referencia de 8" , mezcladora, 1 micrófono y cables premium'
-                },
-                {
-                    info : '6 horas de servicio',
-                    tip  : null
-                },
-                {
-                    info : 'Hora extra $ 500',
+                    info : '6 horas de servicio. Hora extra $ 500',
                     tip  : null
                 }
           ]
@@ -95,33 +83,30 @@ const main = [{
     id:        '1.3',
     titulo:    'Paquete 25 personas',
     subtitulo: 'Equipo',
-    precio:    'MXN $2,500',
+    precio:    'MXN $3,500',
     data: [
                 { 
-                    info : '1 Sistema de audio lineal compacto', 
-                    tip  : '450 WRMS con Subwoofer de 15" y conexión bluetooth (2 satélites con 4 bocinas por lado)'
+                    info : 'Sistema de audio lineal compacto con Subwoofer de 15"', 
+                    tip  : '450 Watts RMS, conexión bluetooth (2 satélites con 4 bocinas por lado)'
                 },
                 {
-                    info : '1 Mezcladora de 8 canales',
-                    tip  : 'interfaz de audio, efectos y BT'
+                    info : 'Mezcladora de 8 canales y Bluetooth',
+                    tip  : 'Interfaz de audio y efectos'
                 },
                 {
-                    info : '1 Micrófono inalámbrico',
+                    info : 'Micrófono dinámico',
+                    tip  : 'alámbrico, inalámbrico o de diadema'
+                },
+                {
+                    info : 'Iluminación autorrítmica',
+                    tip  : 'pares led, robóticas, luz negra
+                },
+                {
+                    info : '6 horas de servicio. Hora extra $ 500',
                     tip  : null
-                },
-                {
-                    info : 'Iluminación básica',
-                    tip  : null
-                },
-                {
-                    info : 'Instalación y operación técnica',
-                    tip  : null
-                },
-                {
-                    info : 'Hora extra $ 500',
-                    tip  :  null
                 }
           ]
+  },
   }
 
 ]
