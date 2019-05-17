@@ -48,7 +48,8 @@ class ControlledCarousel extends React.PureComponent {
 render() {
       return(
         <div>
-          <h1 className='carousel_title'> Renta de audio e iluminacíon profesional </h1>
+          <h1 className='carousel_title'> Renta de audio e iluminación profesional </h1>
+          <br></br>
                   <Carousel >
                     {media.map(i=>(
                             <div className='carousel_height' key={i}>

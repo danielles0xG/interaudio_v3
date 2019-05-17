@@ -6,7 +6,7 @@ import './CustomJumboTron.css'
 const CustomJumboTron = () =>{
     return(
         <div className='jumbotron_wrapper'>
-                    <h1 className='title'> Renta de audio e iluminaciôn profesional </h1>
+                    <h1 className='title'> Renta de audio e iluminación profesional </h1>
                         <p className='title_two'>                       
                           Cubrimos audiencias de hasta 300 personas.                      
                         </p>
