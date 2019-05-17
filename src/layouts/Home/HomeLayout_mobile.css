@@ -1,12 +1,14 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     .locations {
         font-size: 1em;
         color:white !important;
         font-weight:200;
+        
     }
     .landing_section_2{
         flex-direction: column;
-        margin-top: -4em;
+        margin-top: -2em;
+        padding: 0px;
       }
     .landing_section_2_column_1{
         flex: 0 0 100%;

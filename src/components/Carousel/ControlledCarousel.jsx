@@ -3,6 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './ControlledCarousel.css'
 
+
 import _01_Pristine_audio_quality                   from '../../images/Media/1_Pristine_audio_quality.jpg';
 import _02_Sonorización_Profesional                 from '../../images/Media/2_Sonorización_Profesional.jpg';
 import _03_Live_Sound                               from '../../images/Media/3_Live_Sound.jpg';
@@ -17,6 +18,7 @@ import _11_Pool_party                               from '../../images/Media/11_
 import _12_Sistema_lineal_compacto_array_450_W      from '../../images/Media/12_Sistema_lineal_compacto_array_450_W.jpg';
 import _13_Wall_of_Sound                            from '../../images/Media/13_Wall_of_Sound.jpg';
 import _14_Israeliens                               from '../../images/Media/14_Israeliens.jpg'
+
 
 const media = [
                 _01_Pristine_audio_quality,
@@ -46,7 +48,8 @@ class ControlledCarousel extends React.PureComponent {
 render() {
       return(
         <div>
-          <h1 className='carousel_title'> Renta de audio e iluminaciôn profesional </h1>
+          <h1 className='carousel_title'> Renta de audio e iluminación profesional </h1>
+          <br></br>
                   <Carousel >
                     {media.map(i=>(
                             <div className='carousel_height' key={i}>
