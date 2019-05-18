@@ -1,6 +1,15 @@
 //import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import {
+    BrowserView,
+    MobileView,
+    isBrowser,
+    isMobile
+  } from "react-device-detect";
 import './Menu.css'
 import './Menu_mobile.css'
 import En from '../../images/icons/en.png'
@@ -25,15 +34,18 @@ class Menu extends React.Component{
         
         return(
                 <div className='menu_desktop'>
-                    {this.state.menu.map((option) => (
-                        <div>                                         
-                            <a href='#'>
-                                      {option.charAt(0).toUpperCase() + option.slice(1)}
-                            </a>                    
-                        </div>
-                    ))} 
-                {/* <img className='lang_flag' onClick={()=> this._handleLang()}
-                    src={this.state.flag} alt={this.state.flag}/> */}
+
+                        
+                                {this.state.menu.map((option) => (
+                                    <div>                                         
+                                        <a href='#'>
+                                                {option.charAt(0).toUpperCase() + option.slice(1)}
+                                        </a>                    
+                                    </div>
+                                ))} 
+                            {/* <img className='lang_flag' onClick={()=> this._handleLang()}
+                                src={this.state.flag} alt={this.state.flag}/> */}
+                        
                </div>
         )
     }

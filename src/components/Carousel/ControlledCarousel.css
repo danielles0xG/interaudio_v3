@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans|Quicksand&display=swap');
 .carousel_height{
-    height: 100%;
+    height: 30em;
 }
 
 .carousel_title {
@@ -22,6 +22,6 @@
         display: none;
     }
     .carousel_height {
-        height: 40em;
+        height: 30em;
     }
 }
