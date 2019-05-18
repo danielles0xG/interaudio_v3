@@ -48,7 +48,7 @@ class ControlledCarousel extends React.PureComponent {
 render() {
       return(
         <div>
-          <h1 className='carousel_title'> Renta de audio e iluminación profesional </h1>
+   
           <br></br>
                   <Carousel autoPlay='true' interval='1500' infiniteLoop='true'>
                     {media.map(i=>(
