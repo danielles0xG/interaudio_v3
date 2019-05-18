@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+@import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans|Quicksand&display=swap');
 
 .wrapper_main{
  width: 100%;
@@ -25,13 +25,17 @@
   justify-content:center;
 }
 h5{
-  font-family: 'ZCOOL XiaoWei', serif !important;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 li, p{
   font-size: 15px ;
   justify-content: space-between;
   display: flex;
-  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
     
 }
 .hover_info_icon{
@@ -47,6 +51,9 @@ li, p{
 #hover_info_icon:hover #P1_1 {
   display: inline-block;
 
+}
+.card{
+  width: 33%;
 }
 
 @media screen and (max-width: 1000px) {

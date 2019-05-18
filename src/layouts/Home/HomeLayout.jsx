@@ -1,8 +1,13 @@
 import React from 'react'
 import {BackgroundSection} from '../../components/Home_Img/BackgroundSection'
 import SEO from '../../components/seo'
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
 import { SocialIcon } from "react-social-icons";
-
 import Menu from '../../components/Menu/Menu'
 import SloganImg from '../../images/slogan/slogan-transparent.png'
 import Contact from '../../sections/Contact/Contact'
@@ -11,7 +16,6 @@ import CustomJumboTron from '../../components/Jumbotron/CustomJumboTron'
 import Footer from '../../components/Footer/Footer'
 import WhatsApp from '../../images/icons/whatsapp-92px.svg'
 import {main,second} from '../../../data/data_paquetes'
-
 import './HomeResets.css'
 import './HomeLayout.css'
 import './HomeLayout_mobile.css'
@@ -51,18 +55,18 @@ class HomeLayout extends React.Component{
                     </div>                                 
                     <BackgroundSection style={{position:'absolute'}}/>
             </div>                                             
-           
-              <div className="landing_section_2">
-                    <div className="landing_section_2_column_1">
-                   
-                    <CustomJumboTron/>                         
-                    </div>
-                    
-                        <div  className="landing_section_2_column_2">
-                            <ControlledCarousel/>  
-                        </div>                        
+                                                         
+                    {isMobile?<div className="landing_section_2">
+                              <div className="landing_section_2_column_2"> <ControlledCarousel/> </div>                        
+                              <div className="landing_section_2_column_1"> <CustomJumboTron/>  </div>                                             
+                      </div>:
+                      <div className="landing_section_2">
+                              <div className="landing_section_2_column_1"> <CustomJumboTron/>  </div>                
+                              <div className="landing_section_2_column_2"> <ControlledCarousel/> </div>                        
+                      </div> 
+                    } 
+             
 
-            </div>  
             
             <section className='paquetes' name='opciones'>        
                  
