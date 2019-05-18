@@ -55,11 +55,13 @@ class HomeLayout extends React.Component{
               <div className="landing_section_2">
                     <div className="landing_section_2_column_1">
                    
-                        <ControlledCarousel/>                          
+                    <CustomJumboTron/>                         
                     </div>
-                    <div className="landing_section_2_column_2">
-                        <CustomJumboTron/> 
-                    </div>            
+                    
+                        <div  className="landing_section_2_column_2">
+                            <ControlledCarousel/>  
+                        </div>                        
+
             </div>  
             
             <section className='paquetes' name='opciones'>        

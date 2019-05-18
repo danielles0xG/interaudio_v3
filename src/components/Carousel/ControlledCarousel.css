@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
 .carousel_height{
-    height: 25em;
+    height: 100%;
 }
 
 .carousel_title {
@@ -19,6 +19,6 @@
         display: none;
     }
     .carousel_height {
-        height: 20em;
+        height: 40em;
     }
 }

@@ -50,7 +50,7 @@ render() {
         <div>
           <h1 className='carousel_title'> Renta de audio e iluminación profesional </h1>
           <br></br>
-                  <Carousel >
+                  <Carousel autoPlay='true' interval='1500' infiniteLoop='true'>
                     {media.map(i=>(
                             <div className='carousel_height' key={i}>
                                 <img src={i}  />                          
