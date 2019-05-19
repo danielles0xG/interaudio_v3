@@ -21,7 +21,7 @@
 }
 .landing_section_2_column_1{
     flex: 0 0 100%;
-    max-width: 1000%;
+    max-width: 100%;
 
 }
 .landing_section_2_column_2{
@@ -91,5 +91,12 @@
     color:white !important;
     font-weight:200;
     text-align: center;
+}
+.landing_section_2_title {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
 }
 

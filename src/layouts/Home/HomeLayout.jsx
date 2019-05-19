@@ -57,9 +57,15 @@ class HomeLayout extends React.Component{
             </div>                                             
                                                          
                
-                      <div className="landing_section_2">
-                              <div className="landing_section_2_column_1"> <CustomJumboTron/>  </div>                
-                              <div className="landing_section_2_column_2"> <ControlledCarousel/> </div>                        
+                      <div className="landing_section_2">                      
+                              <div className="landing_section_2_column_1"> 
+                                  <h1 className='landing_section_2_title'> Renta de audio e iluminación profesional </h1>
+                                  <ControlledCarousel/> 
+                              </div>         
+
+                              <div className="landing_section_2_column_2"> 
+                                  <CustomJumboTron/>  
+                              </div>                        
                       </div> 
                     
              

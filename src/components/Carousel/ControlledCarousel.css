@@ -3,25 +3,27 @@
     height: 30em;
 }
 
-.carousel_title {
-    text-align: center;
-    font-family: 'Muli', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
-}
 
-@media only screen and (max-width: 500px) {
-    
+@media only screen and (max-width: 500px) {   
     .carousel_height {
         height: 14em;
     }
 }
 @media only screen and (min-width: 800px) {
-    .carousel_title {
-        display: none;
-    }
     .carousel_height {
         height: 30em;
+    }
+}
+@media only screen and (min-width: 1000px) {
+
+    .carousel_height {
+        height: 40em;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .carousel_height {
+        height: 50em;
     }
 }
