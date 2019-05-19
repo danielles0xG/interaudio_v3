@@ -56,15 +56,12 @@ class HomeLayout extends React.Component{
                     <BackgroundSection style={{position:'absolute'}}/>
             </div>                                             
                                                          
-                    {isMobile?<div className="landing_section_2">
-                              <div className="landing_section_2_column_2"> <ControlledCarousel/> </div>                        
-                              <div className="landing_section_2_column_1"> <CustomJumboTron/>  </div>                                             
-                      </div>:
+               
                       <div className="landing_section_2">
                               <div className="landing_section_2_column_1"> <CustomJumboTron/>  </div>                
                               <div className="landing_section_2_column_2"> <ControlledCarousel/> </div>                        
                       </div> 
-                    } 
+                    
              
 
             
