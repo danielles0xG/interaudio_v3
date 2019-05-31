@@ -1,12 +1,6 @@
 import React from 'react'
 import {BackgroundSection} from '../../components/Home_Img/BackgroundSection'
 import SEO from '../../components/seo'
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile
-} from "react-device-detect";
 import { SocialIcon } from "react-social-icons";
 import Menu from '../../components/Menu/Menu'
 import SloganImg from '../../images/slogan/slogan-transparent.png'
