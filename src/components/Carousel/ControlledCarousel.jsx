@@ -19,6 +19,12 @@ import _12_Sistema_lineal_compacto_array_450_W      from '../../images/Media/12_
 import _13_Wall_of_Sound                            from '../../images/Media/13_Wall_of_Sound.jpg';
 import _14_Israeliens                               from '../../images/Media/14_Israeliens.jpg'
 
+import _15_your_stage_partner                       from '../../images/Media/15_your_stage_partner.jpg'
+import _16_dj_boda                                  from '../../images/Media/16_dj_boda.jpg'
+import _17_selina                                   from '../../images/Media/17_selina.jpg'
+import _18_urano_130                                from '../../images/Media/18_urano_130.jpg'
+import _19_your_stage_partner                       from '../../images/Media/19_your_stage_partner.jpg'
+
 
 const media = [
                 _01_Pristine_audio_quality,
@@ -34,7 +40,12 @@ const media = [
                 _11_Pool_party,
                 _12_Sistema_lineal_compacto_array_450_W,
                 _13_Wall_of_Sound,
-                _14_Israeliens
+                _14_Israeliens,
+                _15_your_stage_partner,
+                _16_dj_boda,
+                _17_selina,
+                _18_urano_130,         
+                _19_your_stage_partner,      
               ]
 
 class ControlledCarousel extends React.PureComponent {
