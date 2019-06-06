@@ -8,22 +8,33 @@
     .carousel_height {
         height: 14em;
     }
+    .carousel .slide img{
+        width: 90% !important;
+    }
 }
 @media only screen and (min-width: 800px) {
     .carousel_height {
-        height: 30em;
+        height: 15em;
+    }
+    .carousel .slide img{
+        width: 50% !important;
     }
 }
 @media only screen and (min-width: 1000px) {
 
     .carousel_height {
-        height: 40em;
+        height: 30em;
     }
 }
 
 @media only screen and (min-width: 1300px) {
 
     .carousel_height {
-        height: 50em;
+        height: 30em;
+    }
+    .carousel .slide img{
+        width: 70% !important;
+        height: 100% !important;
     }
 }
+
