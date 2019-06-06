@@ -14,12 +14,12 @@ const Paquetes = ({main,second}) =>{
                         <h5 class="card-header">{i.titulo}</h5>
                         <div class="card-body">    
                                     <h5 class="card-title"> {i.subtitulo} </h5>                
-                                    <ul> { i.data.map(i => (
+                                    <ol> { i.data.map(i => (
                                         <li key={i.info}>    
                                             {i.info} 
                                             {!i.tip?<p></p>:<ToolTipInfo props={i}/>}
                                         </li> ))  }                                                               
-                                    </ul>                
+                                    </ol>                
                                     <h5 class="card-title"> {i.precio}</h5>
                                     <a style={{marginTop:'10px'}} href="mailto:contacto@interaudio.mx" class="btn btn-primary" url="">Contact </a>
                         </div>
@@ -27,12 +27,17 @@ const Paquetes = ({main,second}) =>{
                 ))}          
 
                         <div class="card" >
-                                                <h5 class="card-header">Servicios Extras (6hrs)</h5>
+                                                <h5 class="card-header">Servicios Adicionales (6hrs)</h5>
                                                     <div class="card-body">                                       
                                                             <ul> 
-                                                                <li>Dj/Vdj con booth y monitores - MXN $1,800</li>
-                                                                <li>Videoproyección HD 3D (3500 Lumens) + $1,500</li>
-                                                                <li>Pista de leds. Cotizar.</li>                                       
+                                                                <li>Dj/Vdj versatil con booth y monitores + MXN $1,500</li>
+                                                                <li>Videoproyección HD Solid shine Laser + $1000</li>
+                                                                <li>Sistema lineal compacto (2 Tops, 1 Sub) + $1000</li>                                       
+                                                                <li>Maquina de humo + $300</li>                                       
+                                                                <li>Hora extra: $500</li>                                       
+                                                                <li>Pista de leds (cotizar)</li>                                       
+                                                                <li>Backline (cotizar)</li>                                       
+
                                                             </ul>                           
                                                         <a href="mailto:contacto@interaudio.mx" class="btn btn-primary">Contacto</a>
                                                     </div>
