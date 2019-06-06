@@ -17,13 +17,13 @@
 @media only screen and (min-width: 1000px) {
 
     .carousel_height {
-        height: 40em;
+        height: 30em;
     }
 }
 
 @media only screen and (min-width: 1300px) {
 
     .carousel_height {
-        height: 50em;
+        height: 30em;
     }
 }
