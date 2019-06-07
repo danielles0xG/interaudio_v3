@@ -34,15 +34,10 @@ class Menu extends React.Component{
         
         return(
                 <div className='menu_desktop'>
-
-                        
-                                {this.state.menu.map((option) => (
-                                    <div>                                         
-                                        <a href='#'>
-                                                {option.charAt(0).toUpperCase() + option.slice(1)}
-                                        </a>                    
-                                    </div>
-                                ))} 
+                        <a href="#Opciones">Opciones</a>                                            
+                        <a href="#Servicios">Servicios</a>
+                        <a href="mailto:info@interaudio.mx">Contacto</a>
+       
                             {/* <img className='lang_flag' onClick={()=> this._handleLang()}
                                 src={this.state.flag} alt={this.state.flag}/> */}
                         

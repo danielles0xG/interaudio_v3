@@ -22,8 +22,7 @@ const main = [
       },
       {
         info: '2 Bocinas activas de 15"',
-        tip:
-          "Full-range y diseño coaxial, tri-amplificadas, clase D (2000 Watts RMS)"
+        tip:"Full-range y diseño coaxial, tri-amplificadas, clase D (2000 Watts RMS)"
       },
       {
         info: '2 Bocinas activos de 3x8"',

@@ -33,25 +33,24 @@ class HomeLayout extends React.Component{
                         <Menu/>               
                   </div>
 
-            <div className='landing_section' >                
-                    <div  className='slogan_container'> 
-                          <img className='slogan_img' src={slogan_img} alt='Sound System Rental'/>
-                          <h4 className='locations'>
-                                CANCUN - TULUM - COZUMEL - ISLA MUJERES
-                          </h4>
-                          <h4 style ={{color:'white', fontSize:'2em', fontWeight:'200'}}>(998) 2 18 46 16</h4>  
-                          
-                          <a href="https://api.whatsapp.com/send?phone=5219982184616" target="_blank" 
-                                rel="noopener noreferrer"
-                                style={{cursor:'pointer'}}>
-                              <img className='lang_flag' src={WhatsApp} alt={WhatsApp}/>
-                          </a>
-                    </div>                                 
-                    <BackgroundSection style={{position:'absolute'}}/>
-            </div>                                             
+                      <div className='landing_section' >                
+                              <div  className='slogan_container'> 
+                                    <img className='slogan_img' src={slogan_img} alt='Sound System Rental'/>
+                                    <h4 className='locations'>
+                                          CANCUN - TULUM - COZUMEL - ISLA MUJERES
+                                    </h4>
+                                    <h4 style ={{color:'white', fontSize:'2em', fontWeight:'200'}}>(998) 2 18 46 16</h4>  
+                                    
+                                    <a href="https://api.whatsapp.com/send?phone=5219982184616" target="_blank" 
+                                          rel="noopener noreferrer"
+                                          style={{cursor:'pointer'}}>
+                                        <img className='lang_flag' src={WhatsApp} alt={WhatsApp}/>
+                                    </a>
+                              </div>                                 
+                              <BackgroundSection style={{position:'absolute'}}/>
+                      </div>                                             
                                                          
-               
-                      <div className="landing_section_2">                      
+                      <div name='Servicios' className="landing_section_2">                      
                               <div className="landing_section_2_column_1"> 
                                   <h1 className='landing_section_2_title'> Renta de audio e iluminación profesional </h1>
                                   <ControlledCarousel/> 
@@ -60,25 +59,17 @@ class HomeLayout extends React.Component{
                               <div className="landing_section_2_column_2"> 
                                   <CustomJumboTron/>  
                               </div>                        
-                      </div> 
+                      </div>
+                      
+                      <div name='Opciones' className='paquetes'>       
+                            <Paquetes  main={main} second={second}/>
+                      </div>      
+                      
+                      <section>  </section>      
                     
-             
-
-            
-            <section className='paquetes' name='opciones'>        
-                 
-                  <Paquetes  main={main} second={second}/>
-                  
-            </section>      
-            
-            <section>                      
-                   
-            </section>      
-            
-  
-            <section >       
-              <Footer/>                                  
-            </section>      
+                      <section >       
+                        <Footer/>                                  
+                      </section>      
             
       </div>  
     )

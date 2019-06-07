@@ -42,7 +42,7 @@ const Paquetes = ({main,second}) =>{
 
                                                             </ul>                           
                                                         <a href="mailto:contacto@interaudio.mx" class="btn btn-primary">Contacto</a>
-                                                    </div>
+                                                </div>
                        </div>
                  </div>
          </div>
