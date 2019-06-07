@@ -58,17 +58,16 @@ class ControlledCarousel extends React.PureComponent {
 
 render() {
       return(
-        <div>
-          
-          <br></br>
-                  <Carousel autoPlay='true' interval='1500' infiniteLoop='true' >
-                    {media.map(i=>(
-                            <div className='carousel_height' key={i}>
-                                <img src={i}  />                          
-                            </div>
-                    ))}                  
-                  </Carousel>
-        </div>
+          <Carousel interval='1500' autoPlay='true'
+                            infiniteLoop='false' dynamicHeight='true'
+                            >
+
+                            {media.map(i=>(
+                                    <div className='carousel_height' key={i}>
+                                        <img src={i}  />                          
+                                    </div>
+                            ))}                  
+           </Carousel>
     )
   }
 }
