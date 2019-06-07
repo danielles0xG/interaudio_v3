@@ -11,9 +11,11 @@ const Paquetes = ({main,second}) =>{
                 <div className='wrapper_main'>
                 {main.map(i => (
                         <div class="card">
-                        <h5 class="card-header">{i.titulo}</h5>
+                        <h5 class="card-header">{i.titulo}<p>{i.personas}</p></h5>
+                        
                         <div class="card-body">    
-                                    <h5 class="card-title"> {i.subtitulo} </h5>                
+                                    <h5 class="card-title"> {i.subtitulo} </h5>       
+                                    
                                     <ol> { i.data.map(i => (
                                         <li key={i.info}>    
                                             {i.info} 
@@ -27,7 +29,7 @@ const Paquetes = ({main,second}) =>{
                 ))}          
 
                         <div class="card" >
-                                                <h5 class="card-header">Servicios Adicionales (6hrs)</h5>
+                                                <h5 class="card-header">Servicios Adicionales <p>(6hrs)</p></h5>
                                                     <div class="card-body">                                       
                                                             <ul> 
                                                                 <li>Dj/Vdj versatil con booth y monitores + MXN $1,500</li>
@@ -41,7 +43,7 @@ const Paquetes = ({main,second}) =>{
                                                             </ul>                           
                                                         <a href="mailto:contacto@interaudio.mx" class="btn btn-primary">Contacto</a>
                                                     </div>
-                                            </div>
+                       </div>
                  </div>
          </div>
     )
