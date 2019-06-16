@@ -48,7 +48,8 @@ function SEO({ description, lang, meta, keywords, title }) {
                       name: `keywords`,
                       content: keywords.join(`, `) }  : []  ).concat(meta)}
                        >         
-
+                   
+                   <!--GA Google Analytics Tag : googletagmanager-->
                   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141110306-1"></script>
                   <script>                    
                         {`window.dataLayer = window.dataLayer || [];
@@ -56,6 +57,18 @@ function SEO({ description, lang, meta, keywords, title }) {
                         gtag('js', new Date());
 
                         gtag('config', '{process.env.GA_TAG}');`}
+                  </script>
+
+                  <!-- Hotjar Tracking Code for interaudio.com -->
+                  <script>
+                         {`(function(h,o,t,j,a,r){
+                          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                          h._hjSettings={hjid:1365148,hjsv:6};
+                          a=o.getElementsByTagName('head')[0];
+                          r=o.createElement('script');r.async=1;
+                          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                          a.appendChild(r);
+                      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
                   </script>
           </Helmet>
         );
