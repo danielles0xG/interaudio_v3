@@ -49,7 +49,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                       content: keywords.join(`, `) }  : []  ).concat(meta)}
                        >         
                    
-                   <!--GA Google Analytics Tag : googletagmanager-->
+                   <!-- GA Google Analytics Tag : googletagmanager-->
                   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141110306-1"></script>
                   <script>                    
                         {`window.dataLayer = window.dataLayer || [];
