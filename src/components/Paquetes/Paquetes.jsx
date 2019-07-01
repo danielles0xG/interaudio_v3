@@ -36,7 +36,7 @@ const Paquetes = ({main,second}) =>{
                                                                 <li>Videoproyección HD Solid shine Laser + $1000</li>
                                                                 <li>Sistema lineal compacto (2 Tops, 1 Sub) + $1000</li>                                       
                                                                 <li>Maquina de humo + $300</li>                                       
-                                                                <li>Hora extra: $500</li>                                       
+
                                                                 <li>Pista de leds (cotizar)</li>                                       
                                                                 <li>Backline (cotizar)</li>                                       
 
