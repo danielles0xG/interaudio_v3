@@ -36,7 +36,7 @@ class Menu extends React.Component{
                 <div className='menu_desktop'>
                         <a href="#Opciones">Opciones</a>                                            
                         <a href="#Servicios">Servicios</a>
-                        <a href="mailto:info@interaudio.mx">Contacto</a>
+                        <a href="mailto:contacto@interaudio.mx">Contacto</a>
        
                             {/* <img className='lang_flag' onClick={()=> this._handleLang()}
                                 src={this.state.flag} alt={this.state.flag}/> */}
