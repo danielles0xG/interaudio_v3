@@ -9,7 +9,7 @@ import Paquetes from '../../components/Paquetes/Paquetes'
 import CustomJumboTron from '../../components/Jumbotron/CustomJumboTron'
 import Footer from '../../components/Footer/Footer'
 import WhatsApp from '../../images/icons/whatsapp-92px.svg'
-import {main,second} from '../../../data/data_paquetes'
+import {main} from '../../../data/data_paquetes'
 import './HomeResets.css'
 import './HomeLayout.css'
 import './HomeLayout_mobile.css'
@@ -52,7 +52,7 @@ class HomeLayout extends React.Component{
                                                          
                       <div name='Servicios' className="landing_section_2">                      
                               <div className="landing_section_2_column_1"> 
-                                  <h1 className='landing_section_2_title'> Renta de audio e iluminación profesional </h1>
+                                  <h2 className='landing_section_2_title'> Renta de audio e iluminación profesional </h2>
                                   <ControlledCarousel/> 
                               </div>         
 
@@ -62,7 +62,7 @@ class HomeLayout extends React.Component{
                       </div>
                       
                       <div name='Opciones' className='paquetes'>       
-                            <Paquetes  main={main} second={second}/>
+                            <Paquetes  main={main} />
                       </div>      
                       
                       <section>  </section>      

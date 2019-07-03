@@ -8,7 +8,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-size: 3em;
-    margin-bottom: 1em;
+    
 }
 .title_two{
     font-family: 'Muli', sans-serif;
@@ -28,7 +28,7 @@
     .title {
         font-size: 1.5rem;
         margin-bottom: 1em;
-        display: none;
+       
     }
     .title_two {
         font-size: 1em;
