@@ -11,7 +11,7 @@ const Paquetes = ({main,second}) =>{
                 <div className='wrapper_main'>
                 {main.map(i => (
                         <div class="card">
-                        <h5 class="card-header">{i.titulo}<p>{i.personas}</p></h5>
+                        <h5 class="card-header">{i.titulo}</h5>
                         
                         <div class="card-body">    
                                     <h5 class="card-title"> {i.subtitulo} </h5>       
