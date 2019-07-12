@@ -13,7 +13,7 @@ const Paquetes = ({main,second}) =>{
                         <div class="card">
                         <h5 class="card-header">{i.titulo}</h5>
                         
-                        <div class="card-body">    
+                        <div class="card-body" style={{display:'flex', flexDirection:'column'}}>    
                                     <h5 class="card-title"> {i.subtitulo} </h5>       
                                     
                                     <ol> { i.data.map(i => (
@@ -22,8 +22,8 @@ const Paquetes = ({main,second}) =>{
                                             {!i.tip?<p></p>:<ToolTipInfo props={i}/>}
                                         </li> ))  }                                                               
                                     </ol>                
-                                    <h5 class="card-title"> {i.precio}</h5>
-                                    <a style={{marginTop:'10px'}} href="mailto:contacto@interaudio.mx" class="btn btn-primary" url="">Contact </a>
+                                    
+                                    <a style={{marginTop:'10px'}} href="mailto:contacto@interaudio.mx" class="btn btn-primary" url="">Contacto </a>
                         </div>
                     </div>
                 ))}          
