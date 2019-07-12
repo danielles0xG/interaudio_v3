@@ -27,7 +27,16 @@ class HomeLayout extends React.Component{
     //const logo = Logo;
     return(
       <div>
-          <SEO title="Home" keywords={[`application`, `react`]} />  
+          <SEO title="Renta de audio e iluminacion profesional - Focused on sound quality"
+               keywords={[`Vital Renta de Luz Y Sonido`,
+                          `Karaoke`,
+                          `Karaoke Luz y Sonido Cancun`,
+                          `luz y sonido`,
+                          `Vital`,
+                          `renta de sonido`,
+                          `luz y sonido`,
+                          `eventos`,`bodas`,
+                          `Dj`,`Cancun`]} />  
                  <div className='top_bar'> 
                       {/* <img  className='speaker_logo' src={logo} alt='InterAudio'/> */ }
                         <Menu/>               
