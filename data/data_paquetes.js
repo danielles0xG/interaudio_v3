@@ -34,7 +34,7 @@ const main = [
       },
       {
         info: "Sistema de sonido extra para recepción o ceremonias",
-        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12".
+        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12"."
       },
       {
         info: "Micrófonos",
@@ -79,7 +79,7 @@ const main = [
       },
       {
         info: "Sistema de sonido extra para recepción o ceremonias",
-        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12"".
+        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12"."
       },
       {
         info: "Micrófonos",
