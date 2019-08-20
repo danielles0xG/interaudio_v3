@@ -6,10 +6,10 @@ import './CustomJumboTron.css'
 const CustomJumboTron = () =>{
     return(
         <div className='jumbotron_wrapper'>                   
-                         <p className='title'>Cubrimos audiencias de hasta 300 personas. </p>
+                         <p className='title'> Sonorización profesional para eventos sociales y musicales </p>
 											 
                        <p className='title_two'>
-															 Audio - Iluminación - Dj - Proyector - Eventos - Fiestas - Bodas - Conciertos - Karaoke - Cancún - PDC - Tulúm - Cozumel - Quintana Roo - Sound Rent Alquiler de Bocinas equipo de Luz y Sonido <br/>
+															 Audio - Iluminación - Djs - Fiestas - Bodas - XV años - Conciertos - Eventos corporativos - Karaoke - Refuerzo sonoro a bandas y músicos en gral. <br/>
                                 Spoken english.   
                        </p>
 
