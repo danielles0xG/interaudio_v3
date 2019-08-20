@@ -11,9 +11,9 @@
 const main = [
   {
     id: "1.1",
-    titulo: `Paquete Completo`,
+    titulo: `OPCION 1: Exclusivo sistema de sonido a 4 vías, Dj/Vdj, Iluminación y Videoproyección HD',
     personas:'(50-170 Personas)',
-    subtitulo: 'Exclusivo sistema de sonido a 4 vías, Dj versátil con Iluminación y Videoproyección HD.',
+    subtitulo: 'Potente y exclusivo sistema de sonido a 4 vías, Iluminación robótica, Videoproyección HD y Dj/VDj',
     precio: "MXN $7,500",
     data: [
       {
@@ -21,54 +21,46 @@ const main = [
         tip: null
       },
       {
-        info: '2 Bocinas activas de 15"',
-        tip:"Full-range y diseño coaxial, tri-amplificadas, clase D (2000 Watts RMS)"
-      },
-      {
-        info: '2 Bocinas activos de 3x8"',
-        tip: "Full-range y diseño coaxial, tri-amp, clase D (2000 Wrms)"
+        info: '4 Bocinas Full-Range de 15"',
+        tip:"Cuatriamplificadas Clase D, diseño coaxial y procesador DSP en red (2000 Watts RMS)"
       },
       {
         info: '2 Sub graves de 18" activos',
-        tip: "Clase D (1OOO Wrms)"
+        tip: "Amplificacion Clase D y procesador DSP (1OOO Wrms)"
       },
       {
-        info: "Mezcladora análoga o digital ",
-        tip: "De 8, 12 o 16 canales"
+        info: "Mezcladora análoga o digital",
+        tip: "De 8, 12 o 16 canales, DSP y gestión inalámbrica"
       },
       {
-        info: "Audio independiente para recepción y ceremonias",
-        tip: null
+        info: "Sistema de sonido extra para recepción o ceremonias",
+        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12".
       },
       {
-        info: "4 Micrófonos dinámicos",
-        tip: null
+        info: "Micrófonos",
+        tip: "Inalámbricos, dinàmicos, de condensador, electret, etc."
       },
       {
-        info: "Iluminación DMX / cañones led",
-        tip: "mini robóticas, efectos, luz negra y maquina de humo"
+        info: "Iluminación controlada", 
+        tip: "Pares led, robóticas, barras UV, washes, láser, maquina de humo, etc."
       },
       {
-        info: "Karaoke Profesional",
-        tip: 'Videoproyección HD a pared o con pantalla de 120"'
+        info: "Videoproyeccion Full HD (Karaoke Pro)",
+        tip: "Con pantalla de 100 pulgadas ó a pared de hasta 300 ó Pantalla LED UHD Samsung de 65""
       },
       {
-        info: "Cajas directas, acondicionador de voltaje ...",
-        tip: "ableado digital AES/EBU, atriles, extensiones eléctricas, etc."
+        info: "Cableado y accesorios premium",
+        tip: 'Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc."
       },
       {
-        info: "Flete en Cancún, instalación y operación técnica.",
-        tip: null
-      },
-      {
-        info: "6 horas de servicio.",
-        tip: null
+        info: "Staff técnicoc e Ing. en audio asignado",
+        tip: "Instalación y operación técnica"
       }
     ]
   },
   {
     id: "1.2",
-    titulo: "Paquete Intermedio",
+    titulo: "OPCION 2: Potente sistema de sonido a 3 vías, Iluminación y DJ versátil",
     personas:'(30-50 Personas)',
     subtitulo: "Poderoso sistema de sonido a 3 vías con Dj versátil e Iluminación",
     precio: "MXN $5,500",
@@ -78,32 +70,32 @@ const main = [
         tip: null
       },
       {
-        info: '2 Bocinas activos de 3x8"',
-        tip: "Full-range y diseño coaxial, Tri-amplificadas, clase D (2000 Wrms)"
+        info: '2 Bocinas activas de 3x8"',
+        tip: "Full-range y diseño coaxial, Cuatriamplificadas Clase D (2000 Watts RMS)"
       },
       {
-        info: '2 Sub graves de 18"',
-        tip: "Activos, clase D (1OOO Wrms)"
+        info: "Mezcladora análoga o digital",
+        tip: "De 8, 12 o 16 canales, DSP y gestión inalámbrica"
       },
       {
-        info: "1 Mezcladora análoga o digital de 8, 12 o 16 Ch.",
-        tip: null
+        info: "Sistema de sonido extra para recepción o ceremonias",
+        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12".
       },
       {
-        info: "2 Micrófonos inalámbricos, de mano o de diadema",
-        tip: null
+        info: "Micrófonos",
+        tip: "Inalámbricos, dinàmicos, de condensador, electret, etc."
       },
       {
-        info: "Iluminación DMX / cañones led",
-        tip: 'mini robóticas, efectos, luz negra y maquina de humo'
+        info: "Iluminación controlada", 
+        tip: "Pares led, robóticas, barras UV, washes, láser, maquina de humo, etc."
       },
       {
-        info: "Cajas directas, acondicionador de voltaje",
-        tip: 'cableado digital AES/EBU, atriles, extensiones eléctricas, etc.'
+        info: "Cableado y accesorios premium",
+        tip: 'Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc."
       },
       {
-        info: "Flete en Cancún, instalación y operación técnica.",
-        tip: null
+        info: "Staff técnicoc e Ing. en audio asignado",
+        tip: "Instalación y operación técnica"
       },
       {
         info: "6 horas de servicio",
@@ -113,26 +105,30 @@ const main = [
   },
   {
     id: "1.3",
-    titulo: "Paquete Basico",
+    titulo: "OPCION 3: Pequeño pero poderoso sistema de sonido a 2 vias e Iluminación autorrítmica",
     personas:'(Hasta 30 Personas)',
     subtitulo: "Equipo",
     precio: "MXN $3,500",
     data: [
       {
-        info:'1 Sistema de audio lineal compacto"',
-        tip:'de 450 Wrms con Subwoofer de 15" y conexión bluetooth (2 satélites con 4 bocinas por lado)',
+        info:'1 Sistema de audio lineal compacto de 450 Watts de potencia y Subwoofer de 15"',
+        tip:' 2 satélites con 4 bocinas por lado y conexión Bluetooth',
       },
       {
-        info: "1 Mezcladora de 8 canales y Bluetooth",
-        tip: "Interfaz de audio y efectos"
+        info: "1 Mezcladora hibrida de 8 canales y efectos",
+        tip: "Studiolive AR8"
       },
       {
-        info: "1 Micrófono inalámbrico",
-        tip: null
+        info: "1 Micrófono",
+        tip: "alambrico o inalámbrico"
       },
       {
         info: "Iluminación autorrítmica",
-        tip: null
+        tip: 8 cañones Parled RGB de 3x18 Watts, 2 mini robóticas, luz uv"
+      },
+      {
+        info: "Cableado y accesorios premium",
+        tip: 'Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc."
       },
       {
         info: "5 horas de servicio",
