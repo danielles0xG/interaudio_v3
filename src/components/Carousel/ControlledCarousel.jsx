@@ -4,7 +4,7 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { StaticQuery, graphql } from "gatsby";
 
-import _01 from "../../images/Media/13-Grabacion_multitrack_24bit.jpg";
+import _01 from "../../images/Media/01-Sound_System_Rental.jpeg";
 import _02 from "../../images/Media/02-Live_Sound_Reinforcement.jpeg";
 import _03 from "../../images/Media/03-Dj-VDJ-Karaoke.jpeg";
 import _04 from "../../images/Media/04-Conciertos_Musicos-Mezcla_FOH.png";
@@ -16,7 +16,7 @@ import _09 from "../../images/Media/09-Renta_de_audio_e_iluminacion_profesional.
 import _10 from "../../images/Media/10-Luz_y_sonido_profesional.jpeg";
 import _11 from "../../images/Media/11_Mezcla_FOH_monitores.jpeg";
 import _12 from "../../images/Media/12-Fiestas_Karaoke_Bodas_Proyector_Pantallas.jpeg";
-import _13 from "../../images/Media/01-Sound_System_Rental.jpeg";
+import _13 from "../../images/Media/13-Grabacion_multitrack_24bit.jpg";
 
 const media = [
   { original: _01 },
