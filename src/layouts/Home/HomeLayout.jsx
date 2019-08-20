@@ -28,19 +28,39 @@ class HomeLayout extends React.Component {
     return (
       <div>
         <SEO
-          title="Renta de audio e iluminacion profesional - Focused on sound quality"
+          title="Renta de Audio e Iluminación - Focused on sonic quality"
           keywords={[
             `Vital Renta de Luz Y Sonido`,
-            `Karaoke`,
-            `Karaoke Luz y Sonido Cancun`,
+            `Bandas en vivo`,
+            `Luz y Sonido Cancun`,
             `luz y sonido`,
             `Vital`,
-            `renta de sonido`,
+            `Conciertos Cancun`,
             `luz y sonido`,
+            `AudioCancun`,
+            `Audio Cancun`,
+            `Renta de Audio`,
             `eventos`,
             `bodas`,
             `Dj`,
-            `Cancun`
+            `Cancun``renta de sonido`,
+            `luz y sonido`,
+            `Bocinas`,
+            `Karaoke`,
+            `Renta de Audio profesional en cancun`,
+            `Bodas Riviera Maya`,
+            `Refuerzo sonoro`,
+            `Fiestas`,
+            `Sound System C`,
+            `AV Rental`,
+            `PA Speaker rental`,
+            `Sound Cancun`,
+            `PSAV`,
+            `MANNIA`,
+            `ENCORE`,
+            `HI TECH AUDIO`,
+            `XV años`,
+            `Videoproyeccion`
           ]}
         />
         <div className="top_bar">
@@ -56,7 +76,7 @@ class HomeLayout extends React.Component {
               alt="Sound System Rental"
             />
             <h4 className="locations">
-              CANCUN - TULUM - COZUMEL - ISLA MUJERES
+              CANCUN - RIVIERA MAYA
             </h4>
             <h4 style={{ color: "white", fontSize: "2em", fontWeight: "200" }}>
               (998) 2 18 46 16
