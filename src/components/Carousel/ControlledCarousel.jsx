@@ -2,86 +2,66 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import { StaticQuery, graphql } from "gatsby";
 
-import _01_Pristine_audio_quality from "../../images/Media/1_Pristine_audio_quality.jpg";
-import _02_Sonorización_Profesional from "../../images/Media/2_Sonorización_Profesional.jpg";
-import _03_Live_Sound from "../../images/Media/3_Live_Sound.jpg";
-import _04_Refuerzo_Sonoro from "../../images/Media/4_Refuerzo_Sonoro.jpg";
-import _05_Dj_VDj from "../../images/Media/5_Dj_VDj.jpg";
-import _06_International_Djs from "../../images/Media/6_International_Djs.jpg";
-import _07_Mezcla_y_grabación_en_vivo from "../../images/Media/7_Mezcla_y_grabación_en_vivo.jpg";
-import _08_PA_Speakers_rental from "../../images/Media/8PA_Speakers_rental.jpg";
-import _09_Pool_parties from "../../images/Media/9_Pool_parties.jpg";
-import _10_Fiestas_de_cumpleaños from "../../images/Media/10_Fiestas_de_cumpleaños.jpg";
-import _11_Pool_party from "../../images/Media/11_Pool_party.jpg";
-import _12_Sistema_lineal_compacto_array_450_W from "../../images/Media/12_Sistema_lineal_compacto_array_450_W.jpg";
-import _13_Wall_of_Sound from "../../images/Media/13_Wall_of_Sound.jpg";
-import _14_Israeliens from "../../images/Media/14_Israeliens.jpg";
-import _15_your_stage_partner from "../../images/Media/15_your_stage_partner.jpg";
-import _16_dj_boda from "../../images/Media/16_dj_boda.jpg";
-import _17_selina from "../../images/Media/17_selina.jpg";
-import _18_urano_130 from "../../images/Media/18_urano_130.jpg";
-import _19_your_stage_partner from "../../images/Media/19_your_stage_partner.jpg";
+import _01 from "../../images/Media/13-Grabacion_multitrack_24bit.jpg";
+import _02 from "../../images/Media/02-Live_Sound_Reinforcement.jpeg";
+import _03 from "../../images/Media/03-Dj-VDJ-Karaoke.jpeg";
+import _04 from "../../images/Media/04-Conciertos_Musicos-Mezcla_FOH.png";
+import _05 from "../../images/Media/05-Live_Music_Cancun.jpeg";
+import _06 from "../../images/Media/06-djs_speakers_rental.jpeg";
+import _07 from "../../images/Media/07-Bodas_Weddings_Cancun_PDC_Tulum.jpeg";
+import _08 from "../../images/Media/08-Sonorizacion_profesional.jpeg";
+import _09 from "../../images/Media/09-Renta_de_audio_e_iluminacion_profesional.jpeg";
+import _10 from "../../images/Media/10-Luz_y_sonido_profesional.jpeg";
+import _11 from "../../images/Media/11_Mezcla_FOH_monitores.jpeg";
+import _12 from "../../images/Media/12-Fiestas_Karaoke_Bodas_Proyector_Pantallas.jpeg";
+import _13 from "../../images/Media/01-Sound_System_Rental.jpeg";
 
 const media = [
-  { original: _01_Pristine_audio_quality },
-  { original: _02_Sonorización_Profesional },
-  { original: _03_Live_Sound },
-  { original: _04_Refuerzo_Sonoro },
-  { original: _05_Dj_VDj },
-  { original: _06_International_Djs },
-  { original: _07_Mezcla_y_grabación_en_vivo },
-  { original: _08_PA_Speakers_rental },
-  { original: _09_Pool_parties },
-  { original: _10_Fiestas_de_cumpleaños },
-  { original: _11_Pool_party },
-  { original: _12_Sistema_lineal_compacto_array_450_W },
-  { original: _13_Wall_of_Sound },
-  { original: _14_Israeliens },
-  { original: _15_your_stage_partner },
-  { original: _16_dj_boda },
-  { original: _17_selina },
-  { original: _18_urano_130 },
-  { original: _19_your_stage_partner }
+  { original: _01 },
+  { original: _02 },
+  { original: _03 },
+  { original: _04 },
+  { original: _05 },
+  { original: _06 },
+  { original: _07 },
+  { original: _08 },
+  { original: _09 },
+  { original: _10 },
+  { original: _11 },
+  { original: _12 },
+  { original: _13 }
 ];
 
 class ControlledCarousel extends React.PureComponent {
+  imgs = () => (
+    <StaticQuery
+      query={graphql`
+        query {
+          allFile(filter: { sourceInstanceName: { eq: "Media" } }) {
+            edges {
+              node {
+                extension
+                dir
+                modifiedTime
+              }
+            }
+          }
+        }
+      `}
+      render={data => console.log(data)}
+    />
+  );
+
   render() {
     return (
       <div className="slideshow-container">
         <ImageGallery style={{ borderRadius: "5px" }} items={media} />
+        <this.imgs />
       </div>
     );
   }
 }
 
 export default ControlledCarousel;
-/*
-Attributes	Type	Default	Description
-showArrows	boolean	true	show prev and next arrows
-showStatus	boolean	true	show index of the current item. i.e: (1/8)
-showIndicators	boolean	true	show little dots at the bottom with links for changing the item
-showThumbs	boolean	true	show thumbnails of the images
-thumbWidth	number	undefined	optionally specify pixel width (as an integer) of a thumbnail (including any padding) to avoid calculating values (helps with server-side renders or page cache issues)
-infiniteLoop	boolean	false	infinite loop sliding
-selectedItem	number	0	selects an item though props / defines the initial selected item
-axis	string	horizontal	changes orientation - accepts horizontal and vertical
-verticalSwipe	string	standard	changes vertical swipe scroll direction - accepts standard and natural
-onChange	function	-	Fired when changing positions
-onClickItem	function	-	Fired when an item is clicked
-onClickThumb	function	-	Fired when a thumb it clicked
-width	string	-	Allows to set a fixed width
-useKeyboardArrows	boolean	false	Adds support to next and prev through keyboard arrows
-autoPlay	boolean	false	Auto play
-stopOnHover	boolean	true	Stop auto play while mouse is over the carousel
-interval	number	3000	Interval of auto play
-transitionTime	number	350	Duration of slide transitions (in miliseconds)
-swipeScrollTolerance	number	5	Allows scroll when the swipe movement occurs in a different direction than the carousel axis and within the tolerance - Increase for loose - Decrease for strict
-swipeable	boolean	true	Enables swiping gestures
-dynamicHeight	boolean	false	Adjusts the carousel height if required. -- Do not work with vertical axis --
-emulateTouch	boolean	false	Allows mouse to simulate swipe
-statusFormatter	func	(current, total) => ${current} of ${total}	Allows custom formatting of the status indicator
-centerMode	boolean	false	Enables centered view with partial prev/next slides. Only works with horizontal axis.
-centerSlidePercentage	number	80	optionally specify percentage width (as an integer) of the slides in centerMode
-
-*/

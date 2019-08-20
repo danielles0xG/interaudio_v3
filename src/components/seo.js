@@ -11,8 +11,21 @@ function SEO({ description, lang, meta, keywords, title }) {
         const metaDescription =
           description || data.site.siteMetadata.description;
         return (
-          <Helmet htmlAttributes={{ lang }}  title={title}  titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-            meta={[  {
+          <Helmet
+            base
+            bodyAttributes
+            htmlAttributes
+            link
+            meta
+            noscript
+            script
+            style
+            title
+            htmlAttributes={{ lang }}
+            title={title}
+            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            meta={[
+              {
                 name: `description`,
                 content: metaDescription
               },
@@ -44,24 +57,31 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: `twitter:description`,
                 content: metaDescription
               }
-            ] .concat(  keywords.length > 0 ? {
+            ]
+              .concat(
+                keywords.length > 0
+                  ? {
                       name: `keywords`,
-                      content: keywords.join(`, `) }  : []  ).concat(meta)}
-                       >         
-                   
-                   
-                  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141110306-1"></script>
-                  <script>                    
-                        {`window.dataLayer = window.dataLayer || [];
+                      content: keywords.join(`, `)
+                    }
+                  : []
+              )
+              .concat(meta)}
+          >
+            <script
+              async
+              src="https://www.googletagmanager.com/gtag/js?id=UA-141110306-1"
+            ></script>
+            <script>
+              {`window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
 
                         gtag('config', '{process.env.GA_TAG}');`}
-                  </script>
+            </script>
 
-                 
-                  <script>
-                         {`(function(h,o,t,j,a,r){
+            <script>
+              {`(function(h,o,t,j,a,r){
                           h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
                           h._hjSettings={hjid:1365148,hjsv:6};
                           a=o.getElementsByTagName('head')[0];
@@ -69,7 +89,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                           r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                           a.appendChild(r);
                       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
-                  </script>
+            </script>
           </Helmet>
         );
       }}
@@ -80,7 +100,25 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: []
+  keywords: [
+    `Audio`,
+    `Iluminación`,
+    `Dj`,
+    `Proyector`,
+    `Eventos`,
+    `Fiestas`,
+    `Bodas`,
+    `Conciertos`,
+    `Karaoke`,
+    `Cancún`,
+    `PCD`,
+    `Tulúm`,
+    `Cozumel`,
+    `Quintana Roo`,
+    `Sound Rent`,
+    `Alquiler de Bocinas`,
+    `Equipo  de Luz y Sonido`
+  ]
 };
 
 SEO.propTypes = {
