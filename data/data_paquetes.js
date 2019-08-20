@@ -44,7 +44,7 @@ const main = [
         tip: 'Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc.'
       },
       {
-        info: "Staff técnicoc e Ing. en audio asignado",
+        info: "Staff técnico e Ing. en audio asignado",
         tip: "Instalación y operación técnica"
       }
     ]
@@ -85,7 +85,7 @@ const main = [
         tip: "Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES\/EBU, atriles, extensiones, etc."
       },
       {
-        info: "Staff técnicoc e Ing. en audio asignado",
+        info: "Staff técnico e Ing. en audio asignado",
         tip: "Instalación y operación técnica"
       },
       {
