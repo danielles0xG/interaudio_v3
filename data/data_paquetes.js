@@ -11,7 +11,7 @@
 const main = [
   {
     id: "1.1",
-    titulo: `OPCION 1: Exclusivo sistema de sonido a 4 vías, Dj/Vdj, Iluminación y Videoproyección HD',
+    titulo: "OPCION 1: Exclusivo sistema de sonido a 4 vías, Dj/Vdj, Iluminación y Videoproyección HD",
     personas:'(50-170 Personas)',
     subtitulo: 'Potente y exclusivo sistema de sonido a 4 vías, Iluminación robótica, Videoproyección HD y Dj/VDj',
     precio: "MXN $7,500",
