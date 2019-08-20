@@ -20,7 +20,7 @@ export const BackgroundSection = ({children}) => (
       query {
         placeholderImage: file(relativePath: { eq: "EVspeakers.png" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 4160)  {
+            fluid(quality: 100, maxWidth: 800)  {
                 ...GatsbyImageSharpFluid_noBase64
             }
           }
