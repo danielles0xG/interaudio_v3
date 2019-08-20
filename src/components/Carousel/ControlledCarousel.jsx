@@ -1,78 +1,61 @@
-import React from 'react'
+import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-import './ControlledCarousel.css'
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
-
-import _01_Pristine_audio_quality                   from '../../images/Media/1_Pristine_audio_quality.jpg';
-import _02_Sonorización_Profesional                 from '../../images/Media/2_Sonorización_Profesional.jpg';
-import _03_Live_Sound                               from '../../images/Media/3_Live_Sound.jpg';
-import _04_Refuerzo_Sonoro                          from '../../images/Media/4_Refuerzo_Sonoro.jpg';
-import _05_Dj_VDj                                   from '../../images/Media/5_Dj_VDj.jpg';
-import _06_International_Djs                        from '../../images/Media/6_International_Djs.jpg';
-import _07_Mezcla_y_grabación_en_vivo               from '../../images/Media/7_Mezcla_y_grabación_en_vivo.jpg';
-import _08_PA_Speakers_rental                       from '../../images/Media/8PA_Speakers_rental.jpg';
-import _09_Pool_parties                             from '../../images/Media/9_Pool_parties.jpg';
-import _10_Fiestas_de_cumpleaños                    from '../../images/Media/10_Fiestas_de_cumpleaños.jpg';
-import _11_Pool_party                               from '../../images/Media/11_Pool_party.jpg';
-import _12_Sistema_lineal_compacto_array_450_W      from '../../images/Media/12_Sistema_lineal_compacto_array_450_W.jpg';
-import _13_Wall_of_Sound                            from '../../images/Media/13_Wall_of_Sound.jpg';
-import _14_Israeliens                               from '../../images/Media/14_Israeliens.jpg'
-
-import _15_your_stage_partner                       from '../../images/Media/15_your_stage_partner.jpg'
-import _16_dj_boda                                  from '../../images/Media/16_dj_boda.jpg'
-import _17_selina                                   from '../../images/Media/17_selina.jpg'
-import _18_urano_130                                from '../../images/Media/18_urano_130.jpg'
-import _19_your_stage_partner                       from '../../images/Media/19_your_stage_partner.jpg'
-
+import _01_Pristine_audio_quality from "../../images/Media/1_Pristine_audio_quality.jpg";
+import _02_Sonorización_Profesional from "../../images/Media/2_Sonorización_Profesional.jpg";
+import _03_Live_Sound from "../../images/Media/3_Live_Sound.jpg";
+import _04_Refuerzo_Sonoro from "../../images/Media/4_Refuerzo_Sonoro.jpg";
+import _05_Dj_VDj from "../../images/Media/5_Dj_VDj.jpg";
+import _06_International_Djs from "../../images/Media/6_International_Djs.jpg";
+import _07_Mezcla_y_grabación_en_vivo from "../../images/Media/7_Mezcla_y_grabación_en_vivo.jpg";
+import _08_PA_Speakers_rental from "../../images/Media/8PA_Speakers_rental.jpg";
+import _09_Pool_parties from "../../images/Media/9_Pool_parties.jpg";
+import _10_Fiestas_de_cumpleaños from "../../images/Media/10_Fiestas_de_cumpleaños.jpg";
+import _11_Pool_party from "../../images/Media/11_Pool_party.jpg";
+import _12_Sistema_lineal_compacto_array_450_W from "../../images/Media/12_Sistema_lineal_compacto_array_450_W.jpg";
+import _13_Wall_of_Sound from "../../images/Media/13_Wall_of_Sound.jpg";
+import _14_Israeliens from "../../images/Media/14_Israeliens.jpg";
+import _15_your_stage_partner from "../../images/Media/15_your_stage_partner.jpg";
+import _16_dj_boda from "../../images/Media/16_dj_boda.jpg";
+import _17_selina from "../../images/Media/17_selina.jpg";
+import _18_urano_130 from "../../images/Media/18_urano_130.jpg";
+import _19_your_stage_partner from "../../images/Media/19_your_stage_partner.jpg";
 
 const media = [
-                _01_Pristine_audio_quality,
-                _02_Sonorización_Profesional,
-                _03_Live_Sound,
-                _04_Refuerzo_Sonoro,
-                _05_Dj_VDj,
-                _06_International_Djs,
-                _07_Mezcla_y_grabación_en_vivo,
-                _08_PA_Speakers_rental,
-                _09_Pool_parties,
-                _10_Fiestas_de_cumpleaños,
-                _11_Pool_party,
-                _12_Sistema_lineal_compacto_array_450_W,
-                _13_Wall_of_Sound,
-                _14_Israeliens,
-                _15_your_stage_partner,
-                _16_dj_boda,
-                _17_selina,
-                _18_urano_130,         
-                _19_your_stage_partner,      
-              ]
+  { original: _01_Pristine_audio_quality },
+  { original: _02_Sonorización_Profesional },
+  { original: _03_Live_Sound },
+  { original: _04_Refuerzo_Sonoro },
+  { original: _05_Dj_VDj },
+  { original: _06_International_Djs },
+  { original: _07_Mezcla_y_grabación_en_vivo },
+  { original: _08_PA_Speakers_rental },
+  { original: _09_Pool_parties },
+  { original: _10_Fiestas_de_cumpleaños },
+  { original: _11_Pool_party },
+  { original: _12_Sistema_lineal_compacto_array_450_W },
+  { original: _13_Wall_of_Sound },
+  { original: _14_Israeliens },
+  { original: _15_your_stage_partner },
+  { original: _16_dj_boda },
+  { original: _17_selina },
+  { original: _18_urano_130 },
+  { original: _19_your_stage_partner }
+];
 
 class ControlledCarousel extends React.PureComponent {
-  constructor(props) {
-    super(props);
-    this.state = {
-      slide:1
-    };
-  }
-
-render() {
-      return(
-          <Carousel interval='1500' autoPlay='true'
-                            infiniteLoop='false' dynamicHeight='true'
-                            >
-
-                            {media.map(i=>(
-                                    <div className='carousel_height' key={i}>
-                                        <img src={i}  />                          
-                                    </div>
-                            ))}                  
-           </Carousel>
-    )
+  render() {
+    return (
+      <div className="slideshow-container">
+        <ImageGallery style={{ borderRadius: "5px" }} items={media} />
+      </div>
+    );
   }
 }
 
-export default ControlledCarousel
+export default ControlledCarousel;
 /*
 Attributes	Type	Default	Description
 showArrows	boolean	true	show prev and next arrows
