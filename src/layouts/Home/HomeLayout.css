@@ -15,15 +15,13 @@
   margin: auto;
   margin-top: 1em;
   height: auto;
-  width: 100%;
+  width: 70%;
   padding: 0.5rem;
 }
 .landing_section_2_column_1 {
   flex: 0 0 100%;
-  max-width: 100%;
 }
 .landing_section_2_column_2 {
-  max-width: 70%;
   margin-top: 1.5rem;
 }
 

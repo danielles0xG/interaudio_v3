@@ -8,6 +8,7 @@
     flex-direction: column;
     margin-top: -2em;
     padding: 0px;
+    width: 100%;
   }
   .landing_section_2_column_1 {
     flex: 0 0 100%;
@@ -16,6 +17,7 @@
   .landing_section_2_column_2 {
     flex: 0 0 100%;
     max-width: 100%;
+
     margin-top: 1.5rem;
   }
 }
