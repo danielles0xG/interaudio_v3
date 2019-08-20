@@ -1,12 +1,3 @@
-/*
-    Asegurate que el texto que modifiques quede entre comillas, como esta aya SAPO!    
-    
-    info: elemento de la lista de paquete
-    tip : es el content del incono de informacion
-
-    Si no hay tip pones alla : null
-    
-*/
 
 const main = [
   {
@@ -34,7 +25,7 @@ const main = [
       },
       {
         info: "Sistema de sonido extra para recepción o ceremonias",
-        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12"."
+        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12"
       },
       {
         info: "Micrófonos",
@@ -46,11 +37,11 @@ const main = [
       },
       {
         info: "Videoproyeccion Full HD (Karaoke Pro)",
-        tip: "Con pantalla de 100 pulgadas ó a pared de hasta 300 ó Pantalla LED UHD Samsung de 65""
+        tip: 'Con pantalla de 100 pulgadas ó a pared de hasta 300 ó Pantalla LED UHD Samsung de 65\" '
       },
       {
         info: "Cableado y accesorios premium",
-        tip: 'Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc."
+        tip: 'Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc.'
       },
       {
         info: "Staff técnicoc e Ing. en audio asignado",
@@ -79,7 +70,7 @@ const main = [
       },
       {
         info: "Sistema de sonido extra para recepción o ceremonias",
-        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12"."
+        tip: "2 satelites con 4 bocinas por lado y 1 Subwoofer de 12\" "
       },
       {
         info: "Micrófonos",
@@ -91,7 +82,7 @@ const main = [
       },
       {
         info: "Cableado y accesorios premium",
-        tip: 'Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc."
+        tip: "Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES\/EBU, atriles, extensiones, etc."
       },
       {
         info: "Staff técnicoc e Ing. en audio asignado",
@@ -124,11 +115,11 @@ const main = [
       },
       {
         info: "Iluminación autorrítmica",
-        tip: 8 cañones Parled RGB de 3x18 Watts, 2 mini robóticas, luz uv"
+        tip: "8 cañones Parled RGB de 3x18 Watts, 2 mini robóticas, luz uv"
       },
       {
         info: "Cableado y accesorios premium",
-        tip: 'Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc."
+        tip: "Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES\/EBU, atriles, extensiones, etc"
       },
       {
         info: "5 horas de servicio",
