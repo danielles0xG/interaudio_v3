@@ -35,7 +35,7 @@ const Paquetes = ({ main, second }) => {
                 class="btn btn-primary"
                 url=""
               >
-                Contacto{" "}
+                {" "}
               </a>
             </div>
           </div>
@@ -50,8 +50,6 @@ const Paquetes = ({ main, second }) => {
               <li>Dj/Vdj versatil con booth y monitores + MXN $1,500</li>
               <li>Videoproyección HD Solid shine Laser + $1000</li>
               <li>Sistema lineal compacto (2 Tops, 1 Sub) + $1000</li>
-              <li>Maquina de humo + $300</li>
-
               <li>Pista de leds (cotizar)</li>
               <li>Backline (cotizar)</li>
             </ul>
