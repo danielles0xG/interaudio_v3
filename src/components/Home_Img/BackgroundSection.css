@@ -1,12 +1,19 @@
-.backGroundImg{
+.backGroundImg {
+  z-index: -100;
+  width: 100%;
+  height: 40em;
+  background-repeat: no-repeat;
+  position: absolute !important;
+
+  background-attachment: fixed;
+}
+.slogan {
+  margin: "0px auto";
+}
+@media screen and (max-width: 750px) {
+  .backGroundImg {
     z-index: -100;
     width: 100%;
     height: 30em;
-    background-repeat: no-repeat;
-    position: absolute !important;
-   
-    background-attachment: fixed;
-} 
-.slogan{
-    margin:'0px auto'
+  }
 }

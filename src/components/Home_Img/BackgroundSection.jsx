@@ -1,7 +1,7 @@
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import './BackgroundSection.css'
-import Img from "gatsby-image"
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
+import "./BackgroundSection.css";
+import Img from "gatsby-image";
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -14,36 +14,37 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-export const BackgroundSection = ({children}) => (
+export const BackgroundSection = ({ children }) => (
   <StaticQuery
     query={graphql`
       query {
         placeholderImage: file(relativePath: { eq: "EVspeakers.png" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 800)  {
-                ...GatsbyImageSharpFluid_noBase64
+            fluid(quality: 100, maxWidth: 800) {
+              ...GatsbyImageSharpFluid_noBase64
             }
           }
         }
       }
     `}
     render={data => {
-        //Set ImageData
-        const imageData = data.placeholderImage.childImageSharp.fluid
-        return(
-        <Img 
-                Tag="section"
-                className='backGroundImg'
-                backgroundColor='white'
-                fluid={imageData}
-                >
-            {children}
-        </Img>
-         )
-        }
-       }
+      //Set ImageData
+      const imageData = data.placeholderImage.childImageSharp.fluid;
+      return (
+        <img
+          className="backGroundImg"
+          alt="InterAudio"
+          src="https://github.com/Danielifg/interaudio_v3/blob/master/src/images/EVspeakers.png?raw=true"
+        ></img>
+        // <Img
+        //         Tag="section"
+        //         className='backGroundImg'
+        //         backgroundColor='white'
+        //         fluid={imageData}
+        //         >
+        //     {children}
+        // </Img>
+      );
+    }}
   />
-)
-
-
-
+);
