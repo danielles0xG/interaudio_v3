@@ -21,7 +21,7 @@ export const BackgroundSection = ({ children }) => (
         placeholderImage: file(relativePath: { eq: "EVspeakers.png" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 800) {
-              ...GatsbyImageSharpFluid_noBase64
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -31,19 +31,14 @@ export const BackgroundSection = ({ children }) => (
       //Set ImageData
       const imageData = data.placeholderImage.childImageSharp.fluid;
       return (
-        <img
+        <Img
+          Tag="section"
           className="backGroundImg"
-          alt="InterAudio"
-          src="https://github.com/Danielifg/interaudio_v3/blob/master/src/images/EVspeakers.png?raw=true"
-        ></img>
-        // <Img
-        //         Tag="section"
-        //         className='backGroundImg'
-        //         backgroundColor='white'
-        //         fluid={imageData}
-        //         >
-        //     {children}
-        // </Img>
+          backgroundColor="white"
+          fluid={imageData}
+        >
+          {children}
+        </Img>
       );
     }}
   />

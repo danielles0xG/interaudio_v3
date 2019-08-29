@@ -44,6 +44,9 @@
   .second_section {
     margin-top: 13em;
   }
+  .slogan_container {
+    margin-top: 10em;
+  }
 }
 
 @media screen and (max-width: 750px) {

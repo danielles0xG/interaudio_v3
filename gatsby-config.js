@@ -1,3 +1,5 @@
+const path = require(`path`);
+
 module.exports = {
   siteMetadata: {
     title: `Interaudio`,
@@ -10,7 +12,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
+        path: path.join(__dirname, `src`, `images`)
       }
     },
     `gatsby-transformer-sharp`,
@@ -26,7 +28,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/slogan/browser_tab_icon2.png` // This path is relative to the root of the site.
       }
-    },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
