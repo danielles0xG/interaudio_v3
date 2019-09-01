@@ -12,7 +12,7 @@ const main = [
         tip: null
       },
       {
-        info: '4 Bocinas activas de 15 pulgadas Full-range. 2000 Watts de potencia real (RMS)"',
+        info: '4 Bocinas activas de 15 pulgadas Full-range. 2000 Watts de potencia real (RMS)",
         tip:"Cuatri-amplificación Clase D, diseño coaxial de patente y procesador DSP en red"
       },
       {
@@ -65,7 +65,7 @@ const main = [
         tip: null
       },
       {
-        info: '2 Bocinas activas, cuatri-amplificadas, coax - 2000 Watts Reales"',
+        info: '2 Bocinas activas, cuatri-amplificadas, coax - 2000 Watts Reales",
         tip: "Full-range y diseño coaxial, Cuatriamplificadas Clase D (2000 Watts RMS)"
       },
       {
