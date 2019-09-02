@@ -13,7 +13,7 @@ const main = [
       },
       {
         info: '4 Bocinas activas de 15 pulgadas Full-range. 2000 Watts de potencia real (RMS)",
-        tip:"Cuatri-amplificación Clase D, diseño coaxial de patente y procesador DSP en red"
+        tip: "Cuatri-amplificación Clase D, diseño coaxial de patente y procesador DSP en red"
       },
       {
         info: '2 Sub graves de 18 pulgadas activos. 1000 Watts de potencia real (RMS)",
