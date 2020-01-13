@@ -2,22 +2,22 @@
 const main = [
   {
     id: "1.1",
-    titulo: "OPCION 1: Exclusivo sistema de sonido a 4 vías, Dj/Vdj, Iluminación y Videoproyección HD",
+    titulo: "OPCION 1: Exclusivo sistema de sonido a 4 vías, Dj, Iluminación y Videoproyección HD",
     personas:'(50-170 Personas)',
     subtitulo: 'Potente y exclusivo sistema de sonido a 4 vías, Iluminación robótica, Videoproyección HD y Dj/VDj',
     precio: "MXN $6,950",
     data: [
       {
-        info: "Servicio de Dj con booth iluminado y monitores",
+        info: "Servicio de Dj con cabina iluminada y monitores",
         tip: null
       },
       {
-        info: '4 Bocinas activas de 15 pulgadas Full-range. 2000 Watts de potencia real (RMS)",
-        tip: "Cuatri-amplificación Clase D, diseño coaxial de patente y procesador DSP en red"
+        info: '4 Bocinas activas de 15 pulgadas Full-range. 2000 Watts RMS",
+        tip: "Tri-Amplificadas Clase D + procesador DSP"
       },
       {
-        info: '2 Sub graves de 18 pulgadas activos. 1000 Watts de potencia real (RMS)",
-        tip: "Amplificacion Clase D y procesador DSP en red"
+        info: '2 Sub graves de 18 pulgadas activos. 1000 Watts RMS",
+        tip: "Amplificacion Clase D y procesador DSP"
       },
       {
         info: "Mezcladora análoga o digital",
@@ -29,22 +29,22 @@ const main = [
       },
       {
         info: "Micrófonos",
-        tip: "Inalámbricos, dinàmicos, de diadema, de condensador, electret, etc."
+        tip: "Inalámbricos, lavalier, de condensador, podium, electret, etc."
       },
       {
         info: "Iluminación controlada", 
-        tip: "Pares led, mini robóticas, 4 barras led UV, 10 washes 18x3 w, 2 lásers, maquina de humo 1700 W, etc."
+        tip: "Par leds, mini robóticas, washes, efectos,luz UV,láser,maquina de humo, etc."
       },
       {
-        info: "Videoproyeccion Solid Shine Full HD (Karaoke Pro)",
+        info: "Videoproyeccion HD 3,500 Lumens (Karaoke Pro)",
         tip: 'Con pantalla de 100 pulgadas ó a pared de hasta 300 ó Pantalla SmarTV LED UHD Samsung de 65\" '
       },
       {
         info: "Cableado y accesorios premium",
-        tip: 'Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc.'
+        tip: 'Distribuidor con regulación y acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc.'
       },
       {
-        info: "Staff técnico e Ing. en audio asignado",
+        info: "Staff técnico e Ing. en audio dedicado",
         tip: "Instalación y operación técnica"
       },
       {
@@ -61,7 +61,7 @@ const main = [
     precio: "MXN $4,950",
     data: [
       {
-        info: "Servicio de Dj con booth iluminado y monitores",
+        info: "Servicio de Dj con cabina iluminada y monitores",
         tip: null
       },
       {
@@ -74,18 +74,18 @@ const main = [
       },
       {
         info: "Micrófonos",
-        tip: "Inalámbricos, dinàmicos, de condensador, electret, etc."
+        tip: "Inalámbricos, lavalier, de condensador, podium, electret, etc."
       },
       {
         info: "Iluminación controlada", 
-        tip: "Pares led, robóticas, barras UV, washes, láser, maquina de humo, etc."
+        tip: "Par leds, mini robóticas, washes, efectos,luz UV,láser,maquina de humo, etc."
       },
       {
         info: "Cableado y accesorios premium",
-        tip: "Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES\/EBU, atriles, extensiones, etc."
+        tip: "Distribuidor con regulación y acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc."
       },
       {
-        info: "Staff técnico e Ing. en audio asignado",
+        info: "Staff técnico e Ing. en audio dedicado",
         tip: "Instalación y operación técnica"
       },
       {
@@ -115,7 +115,7 @@ const main = [
       },
       {
         info: "Iluminación autorrítmica",
-        tip: "8 cañones Parled RGB de 3x18 Watts, 2 mini robóticas, luz uv"
+        tip: "4 cañones Parled RGB, 2 mini robóticas, luz uv"
       },
       {
         info: "Cableado y accesorios premium",
