@@ -3,7 +3,6 @@ const main = [
   {
     id: "1.1",
     titulo: "OPCION 1: Exclusivo sistema de sonido a 4 vías, Dj, Iluminación y Videoproyección HD",
-    personas:'(50-170 Personas)',
     subtitulo: 'Potente y exclusivo sistema de sonido a 4 vías, Iluminación robótica, Videoproyección HD y Dj/VDj',
     precio: "MXN $6,950",
     data: [
@@ -12,11 +11,11 @@ const main = [
         tip: null
       },
       {
-        info: '4 Bocinas activas de 15 pulgadas Full-range. 2000 Watts RMS",
+        info: "4 Bocinas activas de 15 pulgadas Full-range. 2000 Watts RMS",
         tip: "Tri-Amplificadas Clase D + procesador DSP"
       },
       {
-        info: '2 Sub graves de 18 pulgadas activos. 1000 Watts RMS",
+        info: "2 Sub graves de 18 pulgadas activos. 1000 Watts RMS",
         tip: "Amplificacion Clase D y procesador DSP"
       },
       {
@@ -56,7 +55,6 @@ const main = [
   {
     id: "1.2",
     titulo: "OPCION 2: Potente sistema de sonido a 3 vías, Iluminación y DJ versátil",
-    personas:'(30-50 Personas)',
     subtitulo: "Poderoso sistema de sonido a 3 vías con Dj versátil e Iluminación",
     precio: "MXN $4,950",
     data: [
@@ -97,7 +95,6 @@ const main = [
   {
     id: "1.3",
     titulo: "OPCION 3: Pequeño pero poderoso sistema de sonido a 2 vias e Iluminación autorrítmica",
-    personas:'(Hasta 30 Personas)',
     subtitulo: "Equipo",
     precio: "MXN $2,950",
     data: [
