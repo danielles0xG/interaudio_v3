@@ -3,7 +3,7 @@ const main = [
   {
     id: "1.1",
     titulo: "OPCION 1: Exclusivo sistema de sonido a 4 vías, Dj, Iluminación y Videoproyección HD",
-    subtitulo: 'Potente y exclusivo sistema de sonido a 4 vías, Iluminación robótica, Videoproyección HD y Dj/VDj',
+    subtitulo: "Potente y exclusivo sistema de sonido a 4 vías, Iluminación robótica, Videoproyección HD y Dj/VDj",
     precio: "MXN $6,950",
     data: [
       {
@@ -36,11 +36,11 @@ const main = [
       },
       {
         info: "Videoproyeccion HD 3,500 Lumens (Karaoke Pro)",
-        tip: 'Con pantalla de 100 pulgadas ó a pared de hasta 300 ó Pantalla SmarTV LED UHD Samsung de 65\" '
+        tip: "Con pantalla de 100 pulgadas ó a pared de hasta 300 ó Pantalla SmarTV LED UHD Samsung de 65 pulgadas"
       },
       {
         info: "Cableado y accesorios premium",
-        tip: 'Distribuidor con regulación y acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc.'
+        tip: "Distribuidor con regulación y acondicionador de voltaje, cajas directas, cableado digital AES/EBU, atriles, extensiones, etc."
       },
       {
         info: "Staff técnico e Ing. en audio dedicado",
@@ -116,7 +116,7 @@ const main = [
       },
       {
         info: "Cableado y accesorios premium",
-        tip: "Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES\/EBU, atriles, extensiones, etc"
+        tip: "Distribuidor con acondicionador de voltaje, cajas directas, cableado digital AES\/EBU, atriles, extensiones, etc."
       },
       {
         info: "5 horas de servicio",
