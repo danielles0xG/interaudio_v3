@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/danielguerrero/workspace/INTERAUDIO/interaudio_v3/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[],"output":"/sitemap","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
+    },{
       plugin: require('/Users/danielguerrero/workspace/INTERAUDIO/interaudio_v3/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
