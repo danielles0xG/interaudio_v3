@@ -1,9 +1,9 @@
 var plugins = [{
-      plugin: require('/Users/flodan00/workspace/web/interaudio_v3/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/danielguerrero/workspace/INTERAUDIO/interaudio_v3/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/flodan00/workspace/web/interaudio_v3/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/slogan/browser_tab_icon2.png"},
+      plugin: require('/Users/danielguerrero/workspace/INTERAUDIO/interaudio_v3/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Interaudio cancun sound system rental","short_name":"interaudio-cancun","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/slogan/browser_tab_icon2.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"6036556f316546b660a8cf216619d8dc"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

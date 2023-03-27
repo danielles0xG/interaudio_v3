@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.interaudio.mx/sitemap-index.xml
+Host: https://www.interaudio.mx

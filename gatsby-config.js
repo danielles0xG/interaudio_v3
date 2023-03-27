@@ -7,6 +7,7 @@ module.exports = {
     author: `@interaudiocancun`
   },
   plugins: [
+    'gatsby-plugin-robots-txt',
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -20,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Interaudio cancun sound system rental`,
+        short_name: `interaudio-cancun`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

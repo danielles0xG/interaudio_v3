@@ -5,7 +5,7 @@ import './Footer.css'
 const Footer =( )=>{
     return(
         <div className='wrapper'>
-                <p> Interaudio™ 2019</p>
+                <h6 style={{margin:"auto"}}> Interaudio™ - Audio/Visual Ministry Professional 2023</h6>
         </div>
     )
 }

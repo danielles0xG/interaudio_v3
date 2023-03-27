@@ -109,9 +109,9 @@ class HomeLayout extends React.Component {
           </div>
         </div>
 
-        <div name="Opciones" className="paquetes">
+        {/* <div name="Opciones" className="paquetes">
           <Paquetes main={main} />
-        </div>
+        </div> */}
 
         <section> </section>
 
