@@ -13,16 +13,16 @@
   justify-content: space-evenly;
   flex-direction: row;
   margin: auto;
-  margin-top: 7em;
+  margin-top: 5em;
   height: auto;
-  width: 70%;
+  width: 90%;
   padding: 0.5rem;
 }
 .landing_section_2_column_1 {
   flex: 0 0 100%;
 }
 .landing_section_2_column_2 {
-  margin-top: 1.5rem;
+  margin-top: .1rem;
 }
 
 .slogan_container {

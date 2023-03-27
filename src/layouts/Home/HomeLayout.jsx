@@ -71,6 +71,7 @@ class HomeLayout extends React.Component {
 
         <div className="landing_section">
           <div className="slogan_container">
+            <h1 style={{ display:"none"}}>Sound system rental</h1>
             <img
               className="slogan_img"
               src={slogan_img}
@@ -96,24 +97,37 @@ class HomeLayout extends React.Component {
         </div>
 
         <div name="Servicios" className="landing_section_2">
-          <div className="landing_section_2_column_1">
-            <h2 className="landing_section_2_title">
-              {" "}
-              Renta de audio e iluminación profesional{" "}
-            </h2>
-            <ControlledCarousel />
-          </div>
+        
 
           <div className="landing_section_2_column_2">
             <CustomJumboTron />
           </div>
+
+          <div className="landing_section_2_column_1">
+   
+            <ControlledCarousel />
+            <h2 className="landing_section_2_title">
+              {" "}
+              Renta de audio e iluminación{" "}
+            </h2>
+            <p>
+            <a 
+            style={{
+              margin:"auto",
+              marginTop:'10px',
+            }} href="mailto:contacto@interaudio.mx" 
+            class="btn btn-primary" url="">Contacto </a>                                                                               
+            </p>
+          </div>
+
         </div>
 
         {/* <div name="Opciones" className="paquetes">
           <Paquetes main={main} />
         </div> */}
 
-        <section> </section>
+        <section>
+           </section>
 
         <section>
           <Footer />
