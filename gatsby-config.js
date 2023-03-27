@@ -4,7 +4,9 @@ module.exports = {
   siteMetadata: {
     title: `Interaudio`,
     description: `Sound System Rental Cancun`,
-    author: `@interaudiocancun`
+    author: `@interaudiocancun`,
+    siteUrl: 'https://interaudio.mx'
+
   },
   plugins: [
     'gatsby-plugin-robots-txt',
