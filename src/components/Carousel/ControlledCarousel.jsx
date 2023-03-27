@@ -19,19 +19,19 @@ import _12 from "../../images/Media/12-Fiestas_Karaoke_Bodas_Proyector_Pantallas
 import _13 from "../../images/Media/13-Grabacion_multitrack_24bit.jpg";
 
 const media = [
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _01 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _02 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _03 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _04 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _05 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _06 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _07 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _08 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _09 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _10 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _11 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _12 },
-  { thumbnailAlt:"interaudio" ,originalAlt:"interaudio" ,original: _13 }
+  { original: _01 },
+  { original: _02 },
+  { original: _03 },
+  { original: _04 },
+  { original: _05 },
+  { original: _06 },
+  { original: _07 },
+  { original: _08 },
+  { original: _09 },
+  { original: _10 },
+  { original: _11 },
+  { original: _12 },
+  { original: _13 }
 ];
 
 class ControlledCarousel extends React.PureComponent {
